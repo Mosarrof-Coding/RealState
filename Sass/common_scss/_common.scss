@@ -1,0 +1,37 @@
+@import "../variable/variable";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: sans-serif;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+// Topper indicatoe--------
+.topper{
+    display: none;
+}
+.toping{
+    width: 20px;
+    height: 25px;
+    border-radius: 5px 5px 0 0;
+    background: $ancor-hover;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    z-index: 99;
+    a{
+        color:$white;
+    }
+}

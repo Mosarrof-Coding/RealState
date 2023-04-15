@@ -1,0 +1,341 @@
+@import "../variable/variable";
+@import "../mixins/mixin";
+
+/*----about section start-------*/
+#aboutUs_banner{
+    width: 100%;
+    background: url(../../images/aboutBanner.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .breadcumbheading{
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: #1500ff3c;
+        padding: 200px 0;
+        text-align: center;
+        h1{
+            margin: 5px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: $white;
+            line-height: normal;
+            font-size: 27px;
+            color:$ancor-hover;
+        }
+        h4{
+            display: inline-block;
+            list-style: none;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: capitalize;
+            color: $same-white;
+            a{
+                color: $same-white;
+                &:hover{
+                    color:$ancor-hover;
+                }
+            }
+        }
+    }
+}
+
+/* Rs part----------------------*/
+#Rs{
+    .rs{
+        padding:10% 0 0 0;
+        h1{
+            text-transform: capitalize;
+            font-weight: 600px;
+            color:$ancor-hover;
+        }
+        p{
+            text-transform: capitalize;
+            font-size: 16px;
+            line-height: 25px;
+            color: $para2;
+            font-weight: 400;
+        }
+        .span{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            span{
+                h4{
+                    text-transform: uppercase;
+                    font-weight: 500;
+                }
+                h5{
+                    text-transform: capitalize;
+                    color:$ancor-hover;
+                }
+            }
+            small{
+                margin-top: 10px;
+                text-transform: capitalize;
+            }
+        }
+    }
+    .relativeRs{
+        position: relative;
+        display: block;
+        height: 550px;
+        margin-bottom: 50px;
+        .rsImg{
+            position: absolute;
+            top: 0;
+            left: 8%;
+            animation: glide 2s ease-in-out alternate infinite;
+            padding: 30px 0 0 0;
+            text-align: right;
+            img{
+                width: 90%;
+            }
+        }
+        @keyframes glide {
+            0%{
+                top: -1%;
+            }
+            100%{
+                top: 5%;
+            }
+        }
+        .layerskill{
+            background: url(../images/about-shape.png) no-repeat center/cover;
+            position: absolute;
+            left: 30%;
+            bottom: 5%;
+            width: 43%;
+            height: 34%;
+            display: grid;
+            place-items: center;
+            transform: rotate(-15deg);
+            
+            span{
+                font-size: 20px;
+                color:$white;
+                transform: rotate(-25deg);
+                text-align: center;
+                h2{
+                    font-weight: 800px;
+                }
+            }
+        }
+    }
+}
+
+/* agent part-------------------*/
+#agent{
+    padding: 100px 0;
+    background: $sadow2;
+    .agent_slide{
+        .hed{
+            text-align: center;
+            h1{
+                text-transform: capitalize;
+            }
+            p{
+                text-transform: capitalize;
+                color:$para2;
+            }
+        }
+        .agentName{
+            .divcontainer{
+                background: $same-white;
+                margin-bottom: 15px;
+                overflow: hidden;
+                .agimg{
+                    position: relative;
+                    .overlay{
+                        width: 100%;
+                        height: 0%;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        background: $transp-color;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 10px;
+                        transition: all linear .3s;
+                    }
+                    .icon{
+                        position: absolute;
+                        left: -50px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap:10px;
+                        transition: cubic-bezier(.2, .2, .9, .2) .7s;
+                        i{
+                            width: 35px;
+                            height: 40px;
+                            background: $same-white;
+                            border-radius: 3px;
+                            display: grid;
+                            place-items: center;
+                            font-size: 16px;
+                            color:$para;
+                            &:hover{
+                                color:$h2;
+                            }
+                        }
+                    }
+                }
+                .agtext{
+                    padding: 20px 5px;
+                    .nameAG{
+                        display: inline-block;
+                        text-transform: capitalize;
+                        font-weight: 600;
+                        font-size: 22px;
+                        letter-spacing: .03 rem;
+                        color: $h2;
+                    }
+                    h5{
+                        text-transform: capitalize;
+                        color:$para;
+                    }
+                }
+                &:hover{
+                    .overlay{
+                        height: 100%;
+                    }
+                    .icon{
+                        left: 7px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* engagement part--------------*/
+#engagement{
+    background: url(../images/sub-about-ban-img.jpg) no-repeat center/cover;
+    padding:50px 0;
+    .count-item{
+        text-align: center;
+        border: 1px solid $sadow2;
+        padding: 50px 0;
+        margin-bottom: 20px;
+        transition: .2s;
+        i{
+            color:$same-white;
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+        h2{
+            color:$ancor-hover;
+            font-weight: 700;
+        }
+        h5{
+            color:$same-white;
+            text-transform: capitalize;
+        }
+        &:hover{
+            margin-top: -5px;
+            background: $ancor-hover;
+            h2{
+                color:$dark_red;
+            }
+        }
+    }
+}
+
+/* workWith part--------------*/
+#workWith{
+    padding: 100px 0;
+    .workRs{
+        h2{
+            font-weight: 600;
+        }
+    }
+    .W-item{
+        background: $same-white;
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        gap:10px;
+        position: relative;
+        margin: 8px 0;
+        .fauser{
+            i{
+                font-size: 50px;
+                color:$ancor;
+                padding-bottom: 10px;
+            }
+            h3{
+                font-weight: 700;
+                letter-spacing: .03 rem;
+                color:$gray_bue;
+            }
+        }
+        .redmore{
+            h3{
+               a{
+                color:$ancor-hover;
+               }
+            }
+            a{
+                text-transform: capitalize;
+            }
+        }
+        &::before{
+            position: absolute;
+            width: 0%;
+            height: 3px;
+            display: block;
+            content: "";
+            left: 0;
+            top: 0;
+            background: $ancor-hover;
+            transition: .3s;
+        }
+        &::after{
+            position: absolute;
+            width: 0%;
+            height: 3px;
+            display: block;
+            content: "";
+            right: 0;
+            bottom: 0;
+            background: $ancor-hover;
+            transition: .3s;
+        }
+        &:hover::before{
+            width: 21%;
+        }
+        &:hover::after{
+            width: 21%;
+        }
+        &:hover{
+            box-shadow: 0 0 8px 1px $sadow2;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+    }
+}
+
+/* partnar part--------------*/
+#partnar{
+    padding: 20px 0;
+    .main-part{
+        h2{
+            color: $ancor-hover;
+        }
+        .slider-part{
+            .brandItem{
+                display: block;
+                max-width: 150px;
+                margin: 0 auto;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

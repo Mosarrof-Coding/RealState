@@ -1,0 +1,227 @@
+@import "../variable/variable";
+@import "../mixins/mixin";
+#city{
+    .container{
+        .hed {
+            padding: 20px 0;
+            h4{
+                color:$ancor-hover;
+                font-weight: 500;
+            }
+            h3{
+                text-transform: uppercase;
+                font-weight: 600;
+                color: #5a5a5a;
+                letter-spacing: 2px;
+            }
+        }
+        .big_city{
+            width: auto;
+            height: 567px;
+            margin: 10px 0;
+            overflow: hidden;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all linear .3s;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            .overlay_city{
+                display: block;
+                width: 0%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background: $newCirclehover;
+                transition: all linear .5s;
+            }
+            .overlay_goal{
+                position: absolute;
+                left: 85%;
+                top: 3%;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background:$same-white;
+                display: grid;
+                place-items: center;
+                transition: all linear .5s;
+                h4{
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    font-weight: 500;
+                    color:$soft_green;
+                    line-height: 0;
+                }
+            }
+            .overlay_txt{
+                display: block;
+                position: absolute;
+                left: 0;
+                bottom:0;
+                padding: 20px;
+                h4{
+                    text-transform: capitalize;
+                    font-weight: 600;
+                    color:$white;
+                }
+                h6{
+                    text-transform: capitalize;
+                    font-weight: 500;
+                    color:$white;
+                    line-height: 1;
+                }
+            }
+            &:hover{
+                img{
+                    transform: scale(1.1);
+                }
+                .overlay_city{
+                    width: 100%;
+                }
+                .overlay_goal{
+                    transform: rotateY(360deg);
+                    background: $newCircle;
+                    h4{
+                        color: $white;
+                    }
+                }
+            }
+
+        }
+        .sml_city{
+            width: auto;
+            height: 273px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all linear .3s;
+            }
+            .overlay_city{
+                display: block;
+                width: 0%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background: $newCirclehover;
+                transition: all linear .5s;
+            }
+            .overlay_goal{
+                position: absolute;
+                left: 80%;
+                top: 3%;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background:$same-white;
+                display: grid;
+                place-items: center;
+                transition: all linear .5s;
+                h4{
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    font-weight: 500;
+                    color:$soft_green;
+                    line-height: 0;
+                }
+            }
+            .overlay_txt{
+                display: block;
+                position: absolute;
+                left: 0;
+                bottom:0;
+                padding: 10px;
+                h4{
+                    text-transform: capitalize;
+                    font-weight: 600;
+                    color:$white;
+                }
+                h6{
+                    text-transform: capitalize;
+                    font-weight: 500;
+                    color:$white;
+                    line-height: 1;
+                }
+            }
+            &:hover{
+                img{
+                    transform: scale(1.1);
+                }
+                .overlay_city{
+                    width: 100%;
+                }
+                .overlay_goal{
+                    transform: rotateY(360deg);
+                    background: $newCircle;
+                    h4{
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    .counters{
+        background: #fbfbfb;
+        display: block;
+        padding: 50px 0;
+        .count_item{
+            background: #068aa70c;
+            padding: 40px 0;
+            border: 1px solid #fff0f0;
+            display: grid;
+            place-items: center;
+            transition: all linear .5s;
+            .sale{
+                width: 110px;
+                height: 110px;
+                border-radius: 50%;
+                display: grid;
+                place-items: center;
+                background: #068aa716;
+                transition: all linear .5s;
+                box-shadow: 0 0 7px 1px #adadad;
+                margin-bottom: 20px;
+                i{
+                    font-size: 50px;
+                    color:#7dba21;
+                }
+            }
+            &:hover{
+                box-shadow: 0 2px 7px 1px #bababa;
+                background: #E05AE0;
+                .sale{
+                    transform: rotateY(360deg);
+                    background: #fff;
+                    box-shadow: none;
+                }
+                h4{
+                    color: $white;
+                }
+                h3{
+                    color: $white;
+                }
+            }
+            h4{
+                font-size: 24px;
+                font-weight: 700;
+            }
+            h3{
+                text-transform: capitalize;
+                line-height: 1;
+                font-size: 25px;
+                font-weight: 500;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+@import "../mixins/mixin";
+@import "../variable/variable";
+#testimonial{
+    background: rgba(48, 40, 131, 0.09);
+    padding: 100px 0 50px 0;
+    .test_heding{
+        h4{
+            text-transform: capitalize;
+            font-weight: 400;
+            color:$ancor-hover;
+        }
+        h3{
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+    .testimonial_slider{
+        .test_temp{
+            background: $white;
+            padding:30px;
+            border-radius: 10px;
+            margin: 10px 5px;
+            .test_profile{
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                gap:20px;
+                margin-bottom: 20px;
+                border-right: 5px solid $ancor-hover;
+                border-radius: 5px;
+                span.img{
+                    display: block;
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                span.testi_txt{
+                    h4{
+                        text-transform: uppercase;
+                        font-size: 20px;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                        color:#282828
+                    }
+                    h5{
+                        text-transform: capitalize;
+                        font-size: 18px;
+                        font-weight: 400;
+                        letter-spacing: 2px;
+                        color:#b07d7d;
+                    }
+                }
+            }
+            .what_col_lg{
+                font-size: 16px;
+                font-weight: 300;
+                letter-spacing: 1px;
+                line-height: 21px;
+                color:#383838;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

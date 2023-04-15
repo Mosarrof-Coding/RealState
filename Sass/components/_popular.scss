@@ -1,0 +1,102 @@
+@import "../variable/variable";
+@import "../mixins/mixin";
+#popular{
+    .row{
+        h2{
+            display: inline-block;
+            font-weight: 700;
+            letter-spacing: 1px;
+            line-height: 1;
+            color:$h2;
+            text-transform: capitalize;
+        }
+        .runner{
+            width: 40%;
+            margin: 0 auto;
+            span.tri_run{
+                display: inline-block;
+                width: 20px;
+                height: 5px;
+                background: $h2;
+                margin: 0 5px;
+                border-radius: 5px;
+                animation: hung 3s ease infinite alternate, nudge 3s linear infinite alternate;
+            }
+            @keyframes hung {
+                0%{
+                    transform: translateX(-30px);
+                }
+                100%{
+                    transform: translateX(30px);
+                }
+            }
+            @keyframes nudge {
+                0%{
+                    transform: translateX(-30px);
+                }
+                100%{
+                    transform: translateX(30px);
+                }
+            }
+        }
+        .me_btton{
+            border: none;
+            padding: 10px 30px;
+            background: $h2;
+            margin: 10px 5px;
+            font-size: 14px;
+            font-weight: 500;
+            color:$same-white;
+            text-transform: uppercase;
+            letter-spacing: normal;
+        }
+        .me_btton.active{
+            background: $ancor-hover;
+        }
+        .glory_room{
+            text-align: center;
+            margin: 20px 0;
+            text-align: center;
+            transition: all linear .3s;
+            img{
+                display: none;
+            }
+            img.active{
+                display: block;
+            }
+            .dot{
+                display: block;
+                .color{
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background: $nav-green;
+                    margin: 10px 5px;
+                }
+                .color.active{
+                    background: red;
+                }
+            }
+        }
+        .glow_anim{
+            animation: glower 1s forwards ease-in;
+        }
+        @keyframes glower {
+            0%{
+                transform: scale(.5);
+                opacity: 0;
+            }
+            100%{
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    }
+    .filterize.active{
+        display: block;
+    }
+    .filterize{
+        display: none;
+    }
+}

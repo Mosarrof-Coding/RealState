@@ -1,0 +1,25 @@
+@import "../common_scss/common";
+@import "../components/header";
+@import "../components/nav";
+@import "../components/banner";
+@import "../components/products";
+@import "../components/demand";
+@import "../components/popular";
+@import "../components/experties";
+@import "../components/city";
+@import "../components/professionals";
+@import "../components/testimonial";
+@import "../components/blog";
+@import "../components/intro";
+@import "../components/footer";
+// sub-components------
+@import "../sub-components/aboutUs";
+@import "../sub-components/services";
+@import "../sub-components/blog";
+@import "../sub-components/dashboard";
+@import "../sub-components/contactUs";
+@import "../sub-components/Elements";
+// sub componentx of blog---
+@import "../sub-components/modernHouse";
+// responsive part------
+@import "../responsive";

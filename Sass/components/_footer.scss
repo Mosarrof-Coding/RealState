@@ -1,0 +1,318 @@
+@import "../variable/variable";
+@import "../mixins/mixin";
+#footer{
+    display: block;
+    background: url(../images/footer-bg.jpg);
+    z-index: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .lines{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        display: flex;
+        justify-content: space-evenly;
+        .line{
+            width: 1px;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+            position: relative;
+            .drop{
+                position: absolute;
+                left: 0;
+                top: -10%;
+                width: 1px;
+                height: 5%;
+                display: block;
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 95%);
+                animation: med 5s forwards infinite;
+                animation-delay: 7s;
+            }
+            .dp1{
+                animation-delay: 5s;
+            }
+            .dp2{
+                animation-delay: 3s;
+            }
+            .dp3{
+                animation-delay: 5s;
+            }
+            .dp4{
+                animation-delay: 4s;
+            }
+            .dp5{
+                animation-delay: 2s;
+            }
+            @keyframes med {
+                0%{
+                    top: -10%;
+                }
+                100%{
+                    top: 100%;
+                }
+            }
+        }
+    }
+    .footer_inner{
+        width: 100%;
+        .newes_button{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 30px 0;
+            border-bottom: 1px solid #ffffff28;
+            .maindiv{
+                display: flex;
+                flex-wrap: wrap;
+                .neweslatter{
+                    display: block;
+                    h3{
+                        color: #fff;
+                        margin-bottom: 0;
+                        line-height: 60px;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                        font-size: 27px;
+                    }
+                }
+                .buttonDiv{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: right;
+                    form{
+                        width: 100%;
+                        display: flex;
+                        .input{
+                            width: 85%;
+                            display: block;
+                            text-align: right;
+                            input{
+                                width: 80%;
+                                height: 60px;
+                                padding: 10px 30px;
+                                font-size: 17px;
+                                outline: 0;
+                                border-radius: 3px;
+                                border: transparent;
+                                margin-right: 3%;
+                            }
+                        }
+                        .sendto{
+                            display: block;
+                            text-align: right;
+                            button{
+                                display: inline-block;
+                                background: #7DBA21;
+                                border: none;
+                                padding:10px 50px;
+                                height: 60px;
+                                border-radius: 3px;
+                                i{
+                                    font-size: 22px;
+                                    color:#fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .middle_footer{
+            padding: 80px 0 20px;
+            .footer_logo{
+                width: 100%;
+                a{
+                    display: block;
+                    width: 20%;
+                    margin-bottom: 27px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                p{
+                    font-size: 15px;
+                    color: #cecece;
+                    line-height: 25px;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                    letter-spacing: .03rem;
+                }
+            }
+            .contact_info{
+                ul{
+                    h4{
+                        text-transform: capitalize;
+                        font-size: 22px;
+                        margin-bottom: 7px;
+                        font-weight: 400;
+                        color: #e8e7e7;
+                        line-height: 1;
+                    }
+                    .lineB{
+                        width: 60px;
+                        height: 3px;
+                        background: #5353bc69;
+                        display: block;
+                        margin-bottom: 2px;
+                    }
+                    .linEx{
+                        width: 40px;
+                        height: 2px;
+                        margin-bottom: 30px;
+                    }
+                    li{
+                        display: inline-flex;
+                        align-items: center;
+                        padding-left: 0 !important;
+                        color: #cecece;
+                        font-size: 15px;
+                        line-height: 45px;
+                        margin-bottom: 10px;
+                        font-weight: 400;
+                        position: relative;
+                        padding-left: 55px;
+                        i{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background: #5353bc37;
+                            display: grid;
+                            place-items: center;
+                            margin-right: 5px;
+                            font-size: 16px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+            .useful_link{
+                ul{
+                    h4{
+                        text-transform: capitalize;
+                        font-size: 22px;
+                        margin-bottom: 7px;
+                        font-weight: 400;
+                        color: #e8e7e7;
+                        line-height: 1;
+                    }
+                    .lineB{
+                        width: 60px;
+                        height: 3px;
+                        background: #5353bc69;
+                        display: block;
+                        margin-bottom: 2px;
+                    }
+                    .linEx{
+                        width: 40px;
+                        height: 2px;
+                        margin-bottom: 30px;
+                    }
+                    li{
+                        display: block;
+                        margin-bottom: 10px;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        a{
+                            color: #cecece;
+                            i{
+                                color: #cecece;
+                                margin-right: 10px;
+                            }
+                            &:hover{
+                                color: #989898;
+                                i{
+                                    color: #989898;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .our_gallery{
+                ul{
+                    h4{
+                        text-transform: capitalize;
+                        font-size: 22px;
+                        margin-bottom: 7px;
+                        font-weight: 400;
+                        color: #e8e7e7;
+                        line-height: 1;
+                    }
+                    .lineB{
+                        width: 100%;
+                        display: block;
+                        width: 60px;
+                        height: 3px;
+                        background: #5353bc69;
+                        display: block;
+                        margin-bottom: 2px;
+                    }
+                    .linEx{
+                        width: 100%;
+                        display: block;
+                        width: 40px;
+                        height: 2px;
+                        margin-bottom: 30px;
+                    }
+                    li{
+                        display: inline-block;
+                        border-radius: 5px;
+                        overflow: hidden;
+                        width: 31%;
+                        margin: 0 0px 0px 3px;
+                        img{
+                            width: 100%;
+                            object-fit: cover;
+                            transition: all linear .3s;
+                        }
+                        &:hover{
+                            img{
+                                transform: scale(1.2);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer_copyright{
+        padding: 30px 0;
+        border-top: 1px solid #ffffff28;
+        .copy{
+            font-size: 16px;
+            margin-bottom: 0;
+            color: #cecece;
+            text-align: left;
+            line-height: 44px;
+            a{
+                background: transparent;
+            }
+        }
+        .social_icon{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            gap: 6px;
+            .square{
+                width: 50px;
+                height: 50px;
+                border-radius: 5px;
+                display: grid;
+                place-items: center;
+                background: #1B1E83;
+                i{
+                    font-size: 20px;
+                    color:#ffffff;
+                }
+            }
+        }
+    }
+}

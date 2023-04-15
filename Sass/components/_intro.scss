@@ -1,0 +1,28 @@
+@import "../variable/variable";
+@import "../mixins/mixin";
+#intro{
+    padding: 60px 0;
+    background: #7DBA21;
+    .container{
+        .row{
+            .col-lg-9{
+                h3{
+                    text-transform: capitalize;
+                    font-size: 27px;
+                    margin: 0;
+                    line-height: 50px;
+                    color: #fff;
+                    z-index: 999;
+                    font-weight: 300;
+                }
+                
+            }
+            .col-lg-3{
+                text-align: right;
+                a{
+                    @include btn2;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+@import "../mixins/mixin";
+@import "../variable/variable";
+#demand{
+    padding: 20px 0 50px 0;
+    background: $pinback;
+    .container{
+        .demand_heading{
+            text-align: center;
+            padding: 20px 0;
+            h2{
+                display: inline-block;
+                font-weight: 700;
+                letter-spacing: .05 rem;
+                line-height: 1;
+                color:$h2;
+                text-transform: capitalize;
+            }
+            .u_div{
+                width: 40%;
+                margin: 0 auto;
+                span.tri_run{
+                    display: inline-block;
+                    width: 20px;
+                    height: 5px;
+                    background: $h2;
+                    margin: 0 5px;
+                    border-radius: 5px;
+                    animation: hung 3s ease infinite alternate, nudge 3s linear infinite alternate;
+                }
+                @keyframes hung {
+                    0%{
+                        transform: translateX(-30px);
+                    }
+                    100%{
+                        transform: translateX(30px);
+                    }
+                }
+                @keyframes nudge {
+                    0%{
+                        transform: translateX(-30px);
+                    }
+                    100%{
+                        transform: translateX(30px);
+                    }
+                }
+            }
+        }
+        .look_item{
+            display: block;
+            width: 100%;
+            height: 280px;
+            position: relative;
+            background: $same-white;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 20px 0;
+            .streach{
+                display: block;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: .8%;
+                background: $fress_blue;
+                transition: .5s;
+            }
+            .layer_font{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                display: block;
+                text-align: center;
+                padding: 20px 7px;
+                i{
+                    display: inline-block;
+                    font-size: 30px;
+                    transition: .3s;
+                }
+                h3{
+                    font-size: 20px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    text-transform:uppercase;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color:$para2;
+                    letter-spacing: .3 rem;
+                    text-transform: capitalize;
+                }
+                a{
+                    text-transform: capitalize;
+                    font-size: 15px;
+                    font-weight: 700;
+                    color:$dark_pink;
+                    letter-spacing: 2px;
+                }
+            }
+            &:hover{
+                box-shadow: 0 2px 2px 1px $sadow2;
+                .streach{
+                    height: 100%;
+                    opacity: 10%;
+                }
+                i{
+                    color:$soft_green;
+                    transform: rotate(360deg) !important;
+                }
+            }
+        }
+    }
+}

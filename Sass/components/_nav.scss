@@ -1,0 +1,136 @@
+@import "../mixins/mixin";
+// navbar part-------
+#navbar{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    border-bottom: 1px solid $para1;
+    box-shadow: 0 0 5px 1px $h2;
+    a{
+        .xsimg{
+            display: block;
+            width: 100px;
+        }
+    }
+    .navbar{
+        padding:0;
+        .myTogglar{
+            display: flex;
+            flex-direction: column;
+            gap:7px;
+            background: none;
+            margin: auto 20px;
+            cursor: pointer;
+            .line{
+                width: 30px;
+                height: 4px;
+                border-radius: 2px;
+                display: block;
+                background: $white;
+                transition: all linear .2s;
+            }
+            .line.rotate1{
+                transform: rotate(45deg) translateY(15px);
+            }
+            .line.hide{
+                opacity: 0;
+                visibility: hidden;
+                transform: translateX(-20px);
+            }
+            .line.rotate2{
+                transform: rotate(-45deg) translateY(-15px);
+            }
+        }
+        .responsivrMenu{
+            width: 320px;
+            margin-right: -320px;
+            height: 100%;
+            background: $h2;
+            position: fixed;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            transition: ease-in-out 1s;
+            overflow-y: scroll;
+            .intoborder{
+                width: 100%;
+                height: 63px;
+                border: 1px solid $white;
+                margin: 2px 0 2px 0;
+            }
+        }
+        .responsivrMenu.goBack{
+            margin-right: 0%;
+        }
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    padding: 40px 13px;
+                    color:$white;
+                }
+            }
+            .dropdown-menu{
+                border-radius: 0;
+                margin:0;
+                li{
+                    margin: 5px 0;
+                    display: flex;
+                    align-items: center;
+                    padding-right: 5px;
+                    transition: all linear .2s;
+                    a{
+                        text-transform: capitalize;
+                        transition: all linear .2s;
+                    }
+                    i{
+                        font-size: 12px;
+                    }
+                    &:hover{
+                        background: #ddd;
+                        padding-right: 0px;
+                        a{
+                            margin-left: 5px;
+                            color:$ancor-hover;
+                        }
+                        i{
+                            color:$ancor-hover;
+                        }
+                    }
+                }
+                .dorpdowen-li{
+                    position: relative;
+                    ul{
+                        position: absolute;
+                        left: 100%;
+                        top: 0;
+                        display: block;
+                        width: 160px;
+                        padding: 10px 0px 20px 0;
+                        background: $white;
+                        display: none;
+                        li{
+                            display: block;
+                            padding: 5px 0 5px 10px;
+                            a{
+                                color:$ancor;
+                                &:hover{
+                                    color:$ancor-hover;
+                                }
+                            }
+                        }
+                    }
+                    &:hover ul{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+// fixed nav--------
+.hurray{
+    transition: 2s;
+    background: $ancor;
+}

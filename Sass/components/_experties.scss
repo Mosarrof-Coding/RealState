@@ -1,0 +1,68 @@
+@import "../variable/variable";
+@import "../mixins/mixin";
+#experties{
+    padding:100px 0;
+    background: $same-white;
+    .experties{
+        .exp_note{
+            h4{
+                font-size: 22px;
+                font-weight: 500;
+                color:$ancor-hover;
+                text-transform: capitalize;
+                letter-spacing: normal;
+            }
+            h3{
+                text-transform: uppercase;
+                font-weight: 600;
+                color:$h2;
+                letter-spacing: 2px;
+            }
+
+        }
+        .ex_itm{
+            border: 1px solid $fress_blue;
+            overflow: hidden;
+            padding: 30px;
+            margin: 10px 0;
+            .icon_exp{
+                padding-right: 10px;
+                i{
+                    color:$fress_blue;
+                    font-size: 60px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
+                }
+            }
+            .icon_txt{
+                h4{
+                    text-transform: capitalize;
+                    font-size: 22px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                }
+                p{
+                    text-transform: capitalize;
+                }
+                a{
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    color:$fress_blue;
+                }
+            }
+            &:hover{
+                background: $white;
+                box-shadow: 0 0 10px 1px #e3e3e3;
+                border: none;
+                .icon_exp{
+                    i{
+                        transform: rotateY(360deg);
+                    }
+                }
+            }
+        }
+    }
+}

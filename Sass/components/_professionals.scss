@@ -1,0 +1,121 @@
+@import "../mixins/mixin";
+@import "../variable/variable";
+#professionals{
+    padding: 50px 0;
+    background: #f4e8f2;
+    h4{
+        color:$ancor-hover;
+    }
+    .prof_slider{
+        display: block;
+        .each_prof{
+            width: auto;
+            height: 390px;
+            display: block;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            margin: 0 5px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .overlay_prof_1{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(#04acda4e,#e859c064);
+                padding: 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+                transition:all linear .5s;
+                a{
+                    display: block;
+                    color:$white;
+                    text-transform: capitalize;
+                    font-size: 20px;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                }
+                .desig{
+                    display: block;
+                    color:$white;
+                    text-transform: capitalize;
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+                .contact{
+                    padding: 5px 0;
+                    display: flex;
+                    justify-content: left;
+                    gap:20px;
+                    margin-bottom: -25%;
+                    transition:.5s;
+                    i{
+                        font-size: 20px;
+                        &:hover{
+                            color:$newCircle;
+                        }
+                    }
+
+                }
+            }
+            .overlay_prof_2{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: #ffffff;
+                padding: 50px 0;
+                display: block;
+                text-align: center;
+                transition: all linear .5s;
+                .face{
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    display: block;
+                    margin: auto;
+                    margin-bottom: 30px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .name2{
+                    text-transform: capitalize;
+                    font-size: 20px;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                }
+                .desig2{
+                    text-transform: capitalize;
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+            }
+            &:hover{
+                .overlay_prof_2{
+                    opacity: 0;
+                    visibility: hidden;
+                }
+                a{
+                    margin-bottom: 0;
+                }
+                .desig{
+                    margin-bottom: 0;
+                }
+                .contact{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
