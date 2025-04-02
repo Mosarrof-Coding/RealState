@@ -1,80 +1,80 @@
 @import "../variable/variable";
-@mixin btn1{
-    display: inline-block;
-    padding: 10px 40px;
-    letter-spacing: .02em;
-    font-size: 16px;
-    font-weight: 500;
-    color:$ancor-hover;
-    margin: 10px 10px;
-    border: 1px solid $ancor-hover;
-    border-radius: 3px;
-    text-transform: capitalize;
-    letter-spacing: .04rem;
-    cursor: pointer;
-    &:hover{
-        background: $ancor-hover;
-        color:$white;
-    }
-};
-
-@mixin btn2{
-    text-transform: capitalize;
-    font-weight: 600;
+@mixin btn1 {
+  display: inline-block;
+  padding: 10px 40px;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: 500;
+  color: $ancor-hover;
+  margin: 10px 10px;
+  border: 1px solid $ancor-hover;
+  border-radius: 3px;
+  text-transform: capitalize;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+  &:hover {
+    background: $ancor-hover;
     color: $white;
-    font-size: 16px;
-    padding: 11px 35px;
-    border: 2px solid $white;
-    display: inline-block;
-    background: transparent;
-    transition: .7s ease;
-    position: relative;
-    z-index: 5;
-    &::before{
-        position: absolute;
-        content: "";
-        top: 0;
-        left: 0;
-        width: 50%;
-        height: 100%;
-        z-index: -1;
-        transition: all .7s ease;
-        background: #7DBA21;
-    }
-    &::after{
-        position: absolute;
-        content: "";
-        top: 0;
-        right: 0;
-        width: 50%;
-        height: 100%;
-        z-index: -1;
-        transition: all .7s ease;
-        background: #7DBA21;
-    }
-    &:hover::after{
-        width: 0%;
-    }
-    &:hover::before{
-        width: 0%;
-    }
-    &:hover{
-        color: #7DBA21;
-        background: $white;
-    }
+  }
 }
 
-@mixin smlBtnmix{
-    display: inline-block;
-    padding: 5px 13px;
-    background: $nav-green;
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: .03rem;
-    color:$same-white;
-    &:hover{
-        background: $ancor-hover;
-        color:$white;
-    }
+@mixin btn2 {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: $white;
+  font-size: 16px;
+  padding: 11px 35px;
+  border: 2px solid $white;
+  display: inline-block;
+  background: transparent;
+  transition: 0.7s ease;
+  position: relative;
+  z-index: 5;
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.7s ease;
+    background: #7dba21;
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.7s ease;
+    background: #7dba21;
+  }
+  &:hover::after {
+    width: 0%;
+  }
+  &:hover::before {
+    width: 0%;
+  }
+  &:hover {
+    color: #7dba21;
+    background: $white;
+  }
+}
+
+@mixin smlBtnmix {
+  display: inline-block;
+  padding: 5px 13px;
+  background: $nav-green;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  color: $same-white;
+  &:hover {
+    background: $ancor-hover;
+    color: $white;
+  }
 }

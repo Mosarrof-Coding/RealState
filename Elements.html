@@ -1,597 +1,937 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Real_State (RS)</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Jura:wght@300;400;500;600;700&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/uicons-regular-rounded.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/responaive.css"/>
+    <link rel="shortcut icon" href="/images/neersvg.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Jura:wght@300;400;500;600;700&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="css/uicons-regular-rounded.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/responaive.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <!---navbar part--------------------->
     <section id="navbar">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img class="xsimg" src="images/logors.png" alt="logo">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img class="xsimg" src="images/logors.png" alt="logo" />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown navli">
+                <a
+                  class="nav-link dropdown-toggle liA"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  INDEX
                 </a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item dropdown navli">
-                        <a class="nav-link dropdown-toggle liA" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            INDEX
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-1</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-2</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-3</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-4</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-5</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-5</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-6</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-7</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-8</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-9</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PROPERTIES
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property list</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">right slider</a></li>
-                                <li><a href="#">left slider</a></li>
-                                <li><a href="#">no slider</a></li>
-                                <li><a href="#">full width</a></li>
-                            </ul>
-                        </li>
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property grid</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">right slider</a></li>
-                                <li><a href="#">left slider</a></li>
-                                <li><a href="#">no slider</a></li>
-                                <li><a href="#">full width</a></li>
-                            </ul>
-                        </li>
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property map</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">maplist 01</a></li>
-                                <li><a href="#">maplist 02</a></li>
-                                <li><a href="#">mapgrid 01</a></li>
-                                <li><a href="#">mapgrid 02</a></li>
-                                <li><a href="#">full width</a></li>
-                            </ul>
-                        </li>
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property details</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">property detail 01</a></li>
-                                <li><a href="#">property detail 02</a></li>
-                                <li><a href="#">property detail 03</a></li>
-                                <li><a href="#">property detail 04</a></li>
-                                <li><a href="#">property detail 05</a></li>
-                            </ul>
-                        </li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            AGENTS
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PAGES
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            BLOG
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            MY ACCOUNT
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" aria-current="page" href="#">
-                                SUBMIT PROPERTY
-                           </a>
-                        </li>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-9</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PROPERTIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property list</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">right slider</a></li>
+                      <li><a href="#">left slider</a></li>
+                      <li><a href="#">no slider</a></li>
+                      <li><a href="#">full width</a></li>
                     </ul>
-                </div>
-                <div class="myTogglar">
-                    <span class="line lin1"></span>
-                    <span class="line lin2"></span>
-                    <span class="line lin3"></span>
-                </div>
-                <div class="responsivrMenu">
-                    <div class="intoborder">
-                    </div>
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item dropdown navli">
-                        <a class="nav-link dropdown-toggle liA" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            INDEX
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-1</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-2</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-3</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-4</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-5</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-5</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-6</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-7</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-8</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-9</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PROPERTIES
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property list</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">right slider</a></li>
-                                <li><a href="#">left slider</a></li>
-                                <li><a href="#">no slider</a></li>
-                                <li><a href="#">full width</a></li>
-                            </ul>
-                        </li>
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property grid</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">right slider</a></li>
-                                <li><a href="#">left slider</a></li>
-                                <li><a href="#">no slider</a></li>
-                                <li><a href="#">full width</a></li>
-                            </ul>
-                        </li>
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property map</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">maplist 01</a></li>
-                                <li><a href="#">maplist 02</a></li>
-                                <li><a href="#">mapgrid 01</a></li>
-                                <li><a href="#">mapgrid 02</a></li>
-                                <li><a href="#">full width</a></li>
-                            </ul>
-                        </li>
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property details</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">property detail 01</a></li>
-                                <li><a href="#">property detail 02</a></li>
-                                <li><a href="#">property detail 03</a></li>
-                                <li><a href="#">property detail 04</a></li>
-                                <li><a href="#">property detail 05</a></li>
-                            </ul>
-                        </li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            AGENTS
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PAGES
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            BLOG
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            MY ACCOUNT
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" aria-current="page" href="#">
-                                SUBMIT PROPERTY
-                           </a>
-                        </li>
+                  </li>
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property grid</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">right slider</a></li>
+                      <li><a href="#">left slider</a></li>
+                      <li><a href="#">no slider</a></li>
+                      <li><a href="#">full width</a></li>
                     </ul>
-                </div>
-            </div>
-        </nav>
+                  </li>
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property map</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">maplist 01</a></li>
+                      <li><a href="#">maplist 02</a></li>
+                      <li><a href="#">mapgrid 01</a></li>
+                      <li><a href="#">mapgrid 02</a></li>
+                      <li><a href="#">full width</a></li>
+                    </ul>
+                  </li>
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property details</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">property detail 01</a></li>
+                      <li><a href="#">property detail 02</a></li>
+                      <li><a href="#">property detail 03</a></li>
+                      <li><a href="#">property detail 04</a></li>
+                      <li><a href="#">property detail 05</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  AGENTS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  BLOG
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MY ACCOUNT
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  SUBMIT PROPERTY
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="myTogglar">
+            <span class="line lin1"></span>
+            <span class="line lin2"></span>
+            <span class="line lin3"></span>
+          </div>
+          <div class="responsivrMenu">
+            <div class="intoborder"></div>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown navli">
+                <a
+                  class="nav-link dropdown-toggle liA"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  INDEX
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-9</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PROPERTIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property list</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">right slider</a></li>
+                      <li><a href="#">left slider</a></li>
+                      <li><a href="#">no slider</a></li>
+                      <li><a href="#">full width</a></li>
+                    </ul>
+                  </li>
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property grid</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">right slider</a></li>
+                      <li><a href="#">left slider</a></li>
+                      <li><a href="#">no slider</a></li>
+                      <li><a href="#">full width</a></li>
+                    </ul>
+                  </li>
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property map</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">maplist 01</a></li>
+                      <li><a href="#">maplist 02</a></li>
+                      <li><a href="#">mapgrid 01</a></li>
+                      <li><a href="#">mapgrid 02</a></li>
+                      <li><a href="#">full width</a></li>
+                    </ul>
+                  </li>
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property details</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">property detail 01</a></li>
+                      <li><a href="#">property detail 02</a></li>
+                      <li><a href="#">property detail 03</a></li>
+                      <li><a href="#">property detail 04</a></li>
+                      <li><a href="#">property detail 05</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  AGENTS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  BLOG
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MY ACCOUNT
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  SUBMIT PROPERTY
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </section>
 
     <!-- banner part--------------------->
     <section id="aboutUs_banner">
-        <div class="topper">
-            <a href="#"><i class="fas fa-arrow-up"></i></a>
-        </div>
-        <div class="breadcumbheading">
-            <h1>contact us</h1>
-            <h4><a href="index.html">home</a> > contact us</h4>
-        </div>
+      <div class="topper">
+        <a href="#"><i class="fas fa-arrow-up"></i></a>
+      </div>
+      <div class="breadcumbheading">
+        <h1>contact us</h1>
+        <h4><a href="index.html">home</a> > contact us</h4>
+      </div>
     </section>
 
     <!-- Elements part------------------>
     <section id="Elements">
-        <div class="container">
-            <div class="alert">
-                <div class="row">
-                    <div class="col-lg-6 mt-4">
-                        <div class="alert-capt">
-                            <h3>accrodion example</h3>
-                        </div>
-                        <div class="accrodionMe">
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                      Accordion Item #1
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                  </div>
-                                </div>
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                      Accordion Item #2
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                  </div>
-                                </div>
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                      Accordion Item #3
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
+      <div class="container">
+        <div class="alert">
+          <div class="row">
+            <div class="col-lg-6 mt-4">
+              <div class="alert-capt">
+                <h3>accrodion example</h3>
+              </div>
+              <div class="accrodionMe">
+                <div
+                  class="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        Accordion Item #1
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is
+                        intended to demonstrate the
+                        <code>.accordion-flush</code> class. This is the first
+                        item's accordion body.
+                      </div>
                     </div>
-                    <div class="col-lg-6 mt-4">
-                        <div class="alert-capt">
-                            <h3>Notice</h3>
-                        </div>
-                        <div class="primary bg-primary d-block p-2 mb-3">
-                            Notice notice-success
-                        </div>
-                        <div class="secondary bg-secondary p-2 mb-3">
-                            Notice notice-success
-                        </div>
-                        <div class="warning bg-warning p-2 mb-3">
-                            Notice notice-success
-                        </div>
-                        <div class="danger bg-danger p-2 mb-3">
-                            Notice notice-success
-                        </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                      >
+                        Accordion Item #2
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingTwo"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is
+                        intended to demonstrate the
+                        <code>.accordion-flush</code> class. This is the second
+                        item's accordion body. Let's imagine this being filled
+                        with some actual content.
+                      </div>
                     </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingThree"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is
+                        intended to demonstrate the
+                        <code>.accordion-flush</code> class. This is the third
+                        item's accordion body. Nothing more exciting happening
+                        here in terms of content, but just filling up the space
+                        to make it look, at least at first glance, a bit more
+                        representative of how this would look in a real-world
+                        application.
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 mt-4">
-                        <div class="progress-box mb-50">
-                            <h3 class="heading-2">Progress</h3>
-                            <div class="progress mb-2">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="progress mb-2">
-                                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="progress mb-2">
-                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="progress mb-2">
-                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="progress mb-2">
-                                <div class="progress-bar progress-bar-striped bg-dark" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="progress  mb-2">
-                                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mt-4">
-                        <div class="button-section mb-50">
-                            <h3 class="heading-2">Button</h3>
-                            <div class="buttons">
-                                <button type="button" class="btn btn-primary btn-md">Primary</button>
-                                <button type="button" class="btn btn-secondary btn-md">Secondary</button>
-                                <button type="button" class="btn btn-success btn-md">Success</button>
-                                <button type="button" class="btn btn-danger btn-md">Danger</button>
-                                <button type="button" class="btn btn-warning btn-md">Warning</button>
-                                <button type="button" class="btn btn-info btn-md">Info</button>
-                                <button type="button" class="btn btn-dark btn-md">Dark</button>
-                                <br><br>
-                                <button type="button" class="btn btn-outline-primary bomd">Primary</button>
-                                <button type="button" class="btn btn-outline-secondary bomd">Secondary</button>
-                                <button type="button" class="btn btn-outline-success bomd">Success</button>
-                                <button type="button" class="btn btn-outline-danger bomd">Danger</button>
-                                <button type="button" class="btn btn-outline-warning bomd">Warning</button>
-                                <button type="button" class="btn btn-outline-info bomd">Info</button>
-                                <button type="button" class="btn btn-outline-dark bomd">Dark</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="col-lg-6 mt-4">
+              <div class="alert-capt">
+                <h3>Notice</h3>
+              </div>
+              <div class="primary bg-primary d-block p-2 mb-3">
+                Notice notice-success
+              </div>
+              <div class="secondary bg-secondary p-2 mb-3">
+                Notice notice-success
+              </div>
+              <div class="warning bg-warning p-2 mb-3">
+                Notice notice-success
+              </div>
+              <div class="danger bg-danger p-2 mb-3">Notice notice-success</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mt-4">
+              <div class="progress-box mb-50">
+                <h3 class="heading-2">Progress</h3>
+                <div class="progress mb-2">
+                  <div
+                    class="progress-bar progress-bar-striped"
+                    role="progressbar"
+                    style="width: 10%"
+                    aria-valuenow="10"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="progress mb-2">
+                  <div
+                    class="progress-bar progress-bar-striped bg-success"
+                    role="progressbar"
+                    style="width: 25%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="progress mb-2">
+                  <div
+                    class="progress-bar progress-bar-striped bg-info"
+                    role="progressbar"
+                    style="width: 50%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="progress mb-2">
+                  <div
+                    class="progress-bar progress-bar-striped bg-warning"
+                    role="progressbar"
+                    style="width: 75%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="progress mb-2">
+                  <div
+                    class="progress-bar progress-bar-striped bg-dark"
+                    role="progressbar"
+                    style="width: 85%"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="progress mb-2">
+                  <div
+                    class="progress-bar progress-bar-striped bg-danger"
+                    role="progressbar"
+                    style="width: 100%"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-4">
+              <div class="button-section mb-50">
+                <h3 class="heading-2">Button</h3>
+                <div class="buttons">
+                  <button type="button" class="btn btn-primary btn-md">
+                    Primary
+                  </button>
+                  <button type="button" class="btn btn-secondary btn-md">
+                    Secondary
+                  </button>
+                  <button type="button" class="btn btn-success btn-md">
+                    Success
+                  </button>
+                  <button type="button" class="btn btn-danger btn-md">
+                    Danger
+                  </button>
+                  <button type="button" class="btn btn-warning btn-md">
+                    Warning
+                  </button>
+                  <button type="button" class="btn btn-info btn-md">
+                    Info
+                  </button>
+                  <button type="button" class="btn btn-dark btn-md">
+                    Dark
+                  </button>
+                  <br /><br />
+                  <button type="button" class="btn btn-outline-primary bomd">
+                    Primary
+                  </button>
+                  <button type="button" class="btn btn-outline-secondary bomd">
+                    Secondary
+                  </button>
+                  <button type="button" class="btn btn-outline-success bomd">
+                    Success
+                  </button>
+                  <button type="button" class="btn btn-outline-danger bomd">
+                    Danger
+                  </button>
+                  <button type="button" class="btn btn-outline-warning bomd">
+                    Warning
+                  </button>
+                  <button type="button" class="btn btn-outline-info bomd">
+                    Info
+                  </button>
+                  <button type="button" class="btn btn-outline-dark bomd">
+                    Dark
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    
+
     <!-- intro part---------------------->
     <section id="intro">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9 intr0-faq">
-                    <h3>
-                        do you have any question?
-                    </h3>
-                </div>
-                <div class="col-lg-3 intro-btn">
-                    <a href="javascript:void(0)">
-                        get in touch
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 intr0-faq">
+            <h3>do you have any question?</h3>
+          </div>
+          <div class="col-lg-3 intro-btn">
+            <a href="javascript:void(0)"> get in touch </a>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- footer-------------------------->
     <section id="footer">
-        <div class="lines">
-            <div class="line">
-                <div class="drop">
-                </div>
-            </div>
-            <div class="line">
-                <div class="drop dp2">
-                </div>
-            </div>
-            <div class="line">
-                <div class="drop dp3">
-                </div>
-            </div>
-            <div class="line">
-                <div class="drop dp4">
-                </div>
-            </div>
-            <div class="line">
-                <div class="drop dp5">
-                </div>
-            </div>
+      <div class="lines">
+        <div class="line">
+          <div class="drop"></div>
         </div>
-        <div class="footer_inner">
-            <div class="newes_button">
-                <div class="container">
-                    <div class="row xs g-0">
-                        <div class="maindiv">
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="neweslatter">
-                                    <h3>subscribe neweslatter</h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="buttonDiv">
-                                    <form action="">
-                                        <div class="input">
-                                            <input type="email" placeholder="Email Address...">
-                                        </div>
-                                        <div class="sendto">
-                                            <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="middle_footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="footer_logo">
-                                <a href="javascript:void(0)">
-                                    <img src="images/logors.png" alt="">
-                                </a>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-8">
-                            <div class="contact_info">
-                                <ul>
-                                    <h4>contact info</h4>
-                                    <div class="lineB"></div>
-                                    <div class="lineB linEx"></div>
-                                    <li>
-                                        <i class="fa-solid fa-location-dot"></i>
-                                        Address: 44 New Design Street,
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-envelope"></i>
-                                        info@themevessel.com
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-phone"></i>
-                                        +01643-492-556
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-fax"></i>
-                                        +0477 85X6 552
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="useful_link">
-                                <ul>
-                                    <h4>Useful Links</h4>
-                                    <div class="lineB"></div>
-                                    <div class="lineB linEx"></div>
-                                    <li>
-                                        <a href="index.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Home
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="about_us.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            About Us
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="services.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Services
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="blog.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Blog
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="dashboard.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Dashboard
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="contactUs.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Contact Us
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="Elements.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Elements
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="our_gallery">
-                                <ul>
-                                    <h4>our gallery</h4>
-                                    <div class="lineB"></div>
-                                    <div class="lineB linEx"></div>
-                                    <li>
-                                        <img src="images/decoration(11).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(12).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(13).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(14).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(15).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(16).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(17).jpg" >
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(18).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(19).jpg" alt="">
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="line">
+          <div class="drop dp2"></div>
         </div>
-        <div class="footer_copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <p class="copy">© 2022
-                            <a href="javascript:void(0)">Theme Vessel.</a>
-                            All Rights Reserved.
-                        </p>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="social_icon">
-                            <a class="square" href="javascript:void(0)" data-toggle="tooltip" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a class="square" href="javascript:void(0)" data-toggle="tooltip" title="Tweeter"><i class="fa-brands fa-twitter"></i></a>
-                            <a class="square" href="javascript:void(0)" data-toggle="tooltip" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                            <a class="square" href="javascript:void(0)" data-toggle="tooltip" title="Github"><i class="fa-brands fa-github"></i></a>
-                            <a class="square" href="javascript:void(0)" data-toggle="tooltip" title="You-tube"><i class="fa-brands fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="line">
+          <div class="drop dp3"></div>
         </div>
+        <div class="line">
+          <div class="drop dp4"></div>
+        </div>
+        <div class="line">
+          <div class="drop dp5"></div>
+        </div>
+      </div>
+      <div class="footer_inner">
+        <div class="newes_button">
+          <div class="container">
+            <div class="row xs g-0">
+              <div class="maindiv">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="neweslatter">
+                    <h3>subscribe neweslatter</h3>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="buttonDiv">
+                    <form action="">
+                      <div class="input">
+                        <input type="email" placeholder="Email Address..." />
+                      </div>
+                      <div class="sendto">
+                        <button type="submit">
+                          <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="middle_footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="footer_logo">
+                  <a href="javascript:void(0)">
+                    <img src="images/logors.png" alt="" />
+                  </a>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.
+                    Donec a consectetur nulla. Nulla posuere sapien vitae lectus
+                    suscipit, et pulvinar nisi tincidunt. Aliquam erat.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-8">
+                <div class="contact_info">
+                  <ul>
+                    <h4>contact info</h4>
+                    <div class="lineB"></div>
+                    <div class="lineB linEx"></div>
+                    <li>
+                      <i class="fa-solid fa-location-dot"></i>
+                      Address: 44 New Design Street,
+                    </li>
+                    <li>
+                      <i class="fa-regular fa-envelope"></i>
+                      info@themevessel.com
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-phone"></i>
+                      +01643-492-556
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-fax"></i>
+                      +0477 85X6 552
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="useful_link">
+                  <ul>
+                    <h4>Useful Links</h4>
+                    <div class="lineB"></div>
+                    <div class="lineB linEx"></div>
+                    <li>
+                      <a href="index.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Home
+                      </a>
+                    </li>
+                    <li>
+                      <a href="about_us.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        About Us
+                      </a>
+                    </li>
+                    <li>
+                      <a href="services.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Services
+                      </a>
+                    </li>
+                    <li>
+                      <a href="blog.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Blog
+                      </a>
+                    </li>
+                    <li>
+                      <a href="dashboard.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Dashboard
+                      </a>
+                    </li>
+                    <li>
+                      <a href="contactUs.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Contact Us
+                      </a>
+                    </li>
+                    <li>
+                      <a href="Elements.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Elements
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="our_gallery">
+                  <ul>
+                    <h4>our gallery</h4>
+                    <div class="lineB"></div>
+                    <div class="lineB linEx"></div>
+                    <li>
+                      <img src="images/decoration(11).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(12).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(13).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(14).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(15).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(16).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(17).jpg" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(18).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(19).jpg" alt="" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <p class="copy">
+                © 2022
+                <a href="javascript:void(0)">Theme Vessel.</a>
+                All Rights Reserved.
+              </p>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="social_icon">
+                <a
+                  class="square"
+                  href="javascript:void(0)"
+                  data-toggle="tooltip"
+                  title="Facebook"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a
+                  class="square"
+                  href="javascript:void(0)"
+                  data-toggle="tooltip"
+                  title="Tweeter"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a
+                  class="square"
+                  href="javascript:void(0)"
+                  data-toggle="tooltip"
+                  title="Instagram"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a
+                  class="square"
+                  href="javascript:void(0)"
+                  data-toggle="tooltip"
+                  title="Github"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  class="square"
+                  href="javascript:void(0)"
+                  data-toggle="tooltip"
+                  title="You-tube"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-1.12.4.min.js"></script>
@@ -600,5 +940,5 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>

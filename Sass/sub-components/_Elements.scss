@@ -1,19 +1,14 @@
 @import "../variable/variable";
 @import "../mixins/mixin";
 /* Elements part---------*/
-#Elements{
-    background: $section_green;
-    padding: 50px 0;
-    .alert{
-        .alert-capt{
-            h3{
-                text-transform: capitalize;
-            }
-            
-
-        }
-        .accrodionMe{
-
-        }
+#Elements {
+  background: $section_green;
+  padding: 50px 0;
+  .alert {
+    .alert-capt {
+      h3 {
+        text-transform: capitalize;
+      }
     }
+  }
 }

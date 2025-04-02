@@ -27,7 +27,7 @@ img {
   width: 20px;
   height: 25px;
   border-radius: 5px 5px 0 0;
-  background: #7DBA21;
+  background: #7dba21;
   display: grid;
   place-items: center;
   position: fixed;
@@ -131,10 +131,10 @@ img {
 }
 #navbar .navbar .navbar-nav .dropdown-menu li:hover a {
   margin-left: 5px;
-  color: #7DBA21;
+  color: #7dba21;
 }
 #navbar .navbar .navbar-nav .dropdown-menu li:hover i {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #navbar .navbar .navbar-nav .dropdown-menu .dorpdowen-li {
   position: relative;
@@ -157,7 +157,7 @@ img {
   color: #5a5a5a;
 }
 #navbar .navbar .navbar-nav .dropdown-menu .dorpdowen-li ul li a:hover {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #navbar .navbar .navbar-nav .dropdown-menu .dorpdowen-li:hover ul {
   display: block;
@@ -211,7 +211,7 @@ img {
   text-transform: uppercase;
 }
 #banner .overlay_heading .container .main h1 span {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #banner .overlay_heading .container .main p {
   font-size: 18px;
@@ -252,7 +252,7 @@ img {
 #products .product_caption h4 {
   font-size: 18px;
   text-transform: capitalize;
-  color: #7DBA21;
+  color: #7dba21;
 }
 #products .product_caption h2 {
   font-size: 25px;
@@ -488,7 +488,7 @@ img {
   letter-spacing: normal;
 }
 #popular .row .me_btton.active {
-  background: #7DBA21;
+  background: #7dba21;
 }
 #popular .row .glory_room {
   text-align: center;
@@ -543,7 +543,7 @@ img {
 #experties .experties .exp_note h4 {
   font-size: 22px;
   font-weight: 500;
-  color: #7DBA21;
+  color: #7dba21;
   text-transform: capitalize;
   letter-spacing: normal;
 }
@@ -598,7 +598,7 @@ img {
   padding: 20px 0;
 }
 #city .container .hed h4 {
-  color: #7DBA21;
+  color: #7dba21;
   font-weight: 500;
 }
 #city .container .hed h3 {
@@ -679,7 +679,7 @@ img {
 }
 #city .container .big_city:hover .overlay_goal {
   transform: rotateY(360deg);
-  background: #E05AE0;
+  background: #e05ae0;
 }
 #city .container .big_city:hover .overlay_goal h4 {
   color: #ffffff;
@@ -753,7 +753,7 @@ img {
 }
 #city .container .sml_city:hover .overlay_goal {
   transform: rotateY(360deg);
-  background: #E05AE0;
+  background: #e05ae0;
 }
 #city .container .sml_city:hover .overlay_goal h4 {
   color: #ffffff;
@@ -818,7 +818,7 @@ img {
   background: #f4e8f2;
 }
 #professionals h4 {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #professionals .prof_slider {
   display: block;
@@ -878,7 +878,7 @@ img {
   font-size: 20px;
 }
 #professionals .prof_slider .each_prof .overlay_prof_1 .contact i:hover {
-  color: #E05AE0;
+  color: #e05ae0;
 }
 #professionals .prof_slider .each_prof .overlay_prof_2 {
   position: absolute;
@@ -939,7 +939,7 @@ img {
 #testimonial .test_heding h4 {
   text-transform: capitalize;
   font-weight: 400;
-  color: #7DBA21;
+  color: #7dba21;
 }
 #testimonial .test_heding h3 {
   text-transform: uppercase;
@@ -957,7 +957,7 @@ img {
   justify-content: left;
   gap: 20px;
   margin-bottom: 20px;
-  border-right: 5px solid #7DBA21;
+  border-right: 5px solid #7dba21;
   border-radius: 5px;
 }
 #testimonial .testimonial_slider .test_temp .test_profile span.img {
@@ -1003,7 +1003,7 @@ img {
 #blog .container h4 {
   text-transform: capitalize;
   font-weight: 400;
-  color: #7DBA21;
+  color: #7dba21;
 }
 #blog .container h3 {
   text-transform: uppercase;
@@ -1201,7 +1201,7 @@ img {
   height: 100%;
   z-index: -1;
   transition: all 0.7s ease;
-  background: #7DBA21;
+  background: #7dba21;
 }
 #intro .container .row .col-lg-3 a::after {
   position: absolute;
@@ -1212,7 +1212,7 @@ img {
   height: 100%;
   z-index: -1;
   transition: all 0.7s ease;
-  background: #7DBA21;
+  background: #7dba21;
 }
 #intro .container .row .col-lg-3 a:hover::after {
   width: 0%;
@@ -1221,7 +1221,7 @@ img {
   width: 0%;
 }
 #intro .container .row .col-lg-3 a:hover {
-  color: #7DBA21;
+  color: #7dba21;
   background: #ffffff;
 }
 
@@ -1552,7 +1552,7 @@ img {
   color: #ffffff;
   line-height: normal;
   font-size: 27px;
-  color: #7DBA21;
+  color: #7dba21;
 }
 #aboutUs_banner .breadcumbheading h4 {
   display: inline-block;
@@ -1566,7 +1566,7 @@ img {
   color: #fdfdfd;
 }
 #aboutUs_banner .breadcumbheading h4 a:hover {
-  color: #7DBA21;
+  color: #7dba21;
 }
 
 /* Rs part----------------------*/
@@ -1576,7 +1576,7 @@ img {
 #Rs .rs h1 {
   text-transform: capitalize;
   font-weight: 600px;
-  color: #7DBA21;
+  color: #7dba21;
 }
 #Rs .rs p {
   text-transform: capitalize;
@@ -1596,7 +1596,7 @@ img {
 }
 #Rs .rs .span span h5 {
   text-transform: capitalize;
-  color: #7DBA21;
+  color: #7dba21;
 }
 #Rs .rs .span small {
   margin-top: 10px;
@@ -1748,7 +1748,7 @@ img {
   margin-bottom: 20px;
 }
 #engagement .count-item h2 {
-  color: #7DBA21;
+  color: #7dba21;
   font-weight: 700;
 }
 #engagement .count-item h5 {
@@ -1757,7 +1757,7 @@ img {
 }
 #engagement .count-item:hover {
   margin-top: -5px;
-  background: #7DBA21;
+  background: #7dba21;
 }
 #engagement .count-item:hover h2 {
   color: #c21137;
@@ -1790,7 +1790,7 @@ img {
   color: #bc30d2;
 }
 #workWith .W-item .redmore h3 a {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #workWith .W-item .redmore a {
   text-transform: capitalize;
@@ -1803,7 +1803,7 @@ img {
   content: "";
   left: 0;
   top: 0;
-  background: #7DBA21;
+  background: #7dba21;
   transition: 0.3s;
 }
 #workWith .W-item::after {
@@ -1814,7 +1814,7 @@ img {
   content: "";
   right: 0;
   bottom: 0;
-  background: #7DBA21;
+  background: #7dba21;
   transition: 0.3s;
 }
 #workWith .W-item:hover::before {
@@ -1834,7 +1834,7 @@ img {
   padding: 20px 0;
 }
 #partnar .main-part h2 {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #partnar .main-part .slider-part .brandItem {
   display: block;
@@ -1869,7 +1869,7 @@ img {
 }
 #services .service .iconspan i {
   font-size: 50px;
-  color: #7DBA21;
+  color: #7dba21;
   transition: all linear 0.3s;
 }
 #services .service .iconspan .list {
@@ -1893,7 +1893,7 @@ img {
 }
 #services .service span .ancor {
   text-transform: capitalize;
-  color: #7DBA21;
+  color: #7dba21;
   margin-top: 10px;
 }
 #services .service:hover {
@@ -1918,7 +1918,7 @@ img {
 }
 #proServices .proSlider .ecImg h2 {
   font-weight: 600;
-  color: #7DBA21;
+  color: #7dba21;
   margin-top: 10px;
 }
 #proServices .proSlider .ecImg h2 .secu2 {
@@ -1930,7 +1930,7 @@ img {
   color: #cdcdcd;
 }
 #proServices .proSlider .ecImg h2 .secu2:hover {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #proServices .proSlider .ecImg p {
   font-size: 16px;
@@ -1940,7 +1940,7 @@ img {
 }
 #proServices .proSlider .ecImg .secu {
   text-transform: capitalize;
-  color: #7DBA21;
+  color: #7dba21;
 }
 #proServices .proSlider .ecImg:hover {
   box-shadow: 0 0 5px 1px #d7d7d7;
@@ -1951,7 +1951,7 @@ img {
 }
 #proServices .buton .proButton {
   padding: 5px 20px;
-  background: #7DBA21;
+  background: #7dba21;
   border: none;
   color: #ffffff;
 }
@@ -2004,7 +2004,7 @@ img {
   display: block;
   width: 50px;
   height: 3px;
-  background: #7DBA21;
+  background: #7dba21;
 }
 #proTestimonial .testItem .square .mixText h5 {
   text-transform: capitalize;
@@ -2013,7 +2013,7 @@ img {
 #proTestimonial .testItem .square .mixText h5 small {
   text-transform: capitalize;
   font-size: 14px;
-  color: #7DBA21;
+  color: #7dba21;
 }
 #proTestimonial .testItem .square p {
   font-size: 16px;
@@ -2025,7 +2025,7 @@ img {
 #proTestimonial .testItem .square .starIcon {
   display: flex;
   align-items: center;
-  color: #7DBA21;
+  color: #7dba21;
   gap: 5px;
 }
 #proTestimonial .testItem .imgglow {
@@ -2050,7 +2050,7 @@ img {
   height: 40px;
   display: grid;
   place-items: center;
-  background: #7DBA21;
+  background: #7dba21;
   border-radius: 50%;
   z-index: 99;
   font-size: 20px;
@@ -2108,7 +2108,7 @@ img {
   color: #5a5a5a;
 }
 #blog .picPrant .picTXT h4:hover {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #blog .picPrant .picTXT .ican {
   display: flex;
@@ -2130,7 +2130,7 @@ img {
   color: #5a5a5a;
 }
 #blog .picPrant .picTXT a:hover {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #blog .picPrant:hover {
   box-shadow: 0 0 6px 1px #959595;
@@ -2169,7 +2169,7 @@ img {
   color: #ffffff;
 }
 #blog .pagin .ulPagin .liPagin a:hover {
-  background: #7DBA21;
+  background: #7dba21;
 }
 #blog .pagin .ulPagin .liPagin .prevPagin {
   border-radius: 5px 0 0 5px;
@@ -2192,14 +2192,14 @@ img {
   display: block;
   width: 40px;
   height: 2px;
-  background: #7DBA21;
+  background: #7dba21;
   margin-bottom: 3px;
 }
 #blog .Search ul .bline {
   display: block;
   width: 30px;
   height: 1px;
-  background: #7DBA21;
+  background: #7dba21;
 }
 #blog .Search ul .Exline {
   margin-bottom: 20px;
@@ -2225,7 +2225,7 @@ img {
   color: #5a5a5a;
 }
 #blog .Search .ulMore span h5:hover {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #blog .Search .ulMore span h6 {
   font-weight: 300;
@@ -2239,10 +2239,10 @@ img {
   margin-right: 5px;
 }
 #blog .Search .ulMore span h6 a:hover {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #blog .Search .ulMore span h6 a:hover i {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #blog .Search form {
   position: relative;
@@ -2278,7 +2278,7 @@ img {
   color: #5a5a5a;
 }
 #blog .Search .ulagain .liNumber:hover span {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #blog .Search .ulSocialplus .liIcn i {
   width: 40px;
@@ -2303,7 +2303,7 @@ img {
   text-transform: capitalize;
 }
 #blog .Search .ulTags .tagBtn:hover {
-  background: #7DBA21;
+  background: #7dba21;
   color: #fdfdfd;
 }
 
@@ -2342,10 +2342,10 @@ img {
 }
 #navbar .navbar .navbar-nav .dropdown-menu li:hover a {
   margin-left: 5px;
-  color: #7DBA21;
+  color: #7dba21;
 }
 #navbar .navbar .navbar-nav .dropdown-menu li:hover i {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #navbar .navbar .navbar-nav .dropdown-menu .dorpdowen-li {
   position: relative;
@@ -2368,7 +2368,7 @@ img {
   color: #5a5a5a;
 }
 #navbar .navbar .navbar-nav .dropdown-menu .dorpdowen-li ul li a:hover {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #navbar .navbar .navbar-nav .dropdown-menu .dorpdowen-li:hover ul {
   display: block;
@@ -2465,7 +2465,7 @@ img {
 #dashboard .div.active .parent-cmnts .commenter span .time small {
   display: inline-block;
   text-transform: capitalize;
-  color: #7DBA21;
+  color: #7dba21;
   margin-left: 10px;
 }
 #dashboard .div.active .parent-cmnts .commenter span .para2 {
@@ -2492,7 +2492,7 @@ img {
   color: #fdfdfd;
 }
 #dashboard .div.active .parent-cmnts .commenter span a.approve:hover {
-  background: #7DBA21;
+  background: #7dba21;
   color: #ffffff;
 }
 #dashboard .div.active .parent-cmnts .travCommenter {
@@ -2524,7 +2524,7 @@ img {
 #dashboard .div.active .parent-cmnts .travCommenter .travel .trav2-li a {
   font-size: 18px;
   font-weight: 500;
-  color: #7DBA21;
+  color: #7dba21;
   letter-spacing: 0.03rem;
 }
 #dashboard .div.active .parent-cmnts .date-edit {
@@ -2678,7 +2678,7 @@ img {
   height: 100%;
   z-index: -1;
   transition: all 0.7s ease;
-  background: #7DBA21;
+  background: #7dba21;
 }
 #dashboard .submitPrprty form a::after {
   position: absolute;
@@ -2689,7 +2689,7 @@ img {
   height: 100%;
   z-index: -1;
   transition: all 0.7s ease;
-  background: #7DBA21;
+  background: #7dba21;
 }
 #dashboard .submitPrprty form a:hover::after {
   width: 0%;
@@ -2698,7 +2698,7 @@ img {
   width: 0%;
 }
 #dashboard .submitPrprty form a:hover {
-  color: #7DBA21;
+  color: #7dba21;
   background: #ffffff;
 }
 #dashboard .profile .profile-area form .inputArea {
@@ -2716,7 +2716,7 @@ img {
 #dashboard .profile .profile-area form .inputArea .profileU .fileload {
   width: 20%;
   height: 18%;
-  background: #7DBA21;
+  background: #7dba21;
   border: 1px solid #ffffff;
   position: absolute;
   left: 50%;
@@ -2815,7 +2815,7 @@ img {
   height: 100%;
   z-index: -1;
   transition: all 0.7s ease;
-  background: #7DBA21;
+  background: #7dba21;
 }
 #dashboard .profile .profile-area form .passwordArea .button::after {
   position: absolute;
@@ -2826,7 +2826,7 @@ img {
   height: 100%;
   z-index: -1;
   transition: all 0.7s ease;
-  background: #7DBA21;
+  background: #7dba21;
 }
 #dashboard .profile .profile-area form .passwordArea .button:hover::after {
   width: 0%;
@@ -2835,7 +2835,7 @@ img {
   width: 0%;
 }
 #dashboard .profile .profile-area form .passwordArea .button:hover {
-  color: #7DBA21;
+  color: #7dba21;
   background: #ffffff;
 }
 #dashboard .profile .profile-area .prfile- {
@@ -2853,7 +2853,7 @@ img {
   display: block;
   padding: 20px 0;
   color: #ffffff;
-  background: #0DCAF0;
+  background: #0dcaf0;
 }
 #dashboard .left-navbar {
   display: block;
@@ -2887,7 +2887,7 @@ img {
   letter-spacing: 0.04rem;
   transition: 0.3s;
   cursor: pointer;
-  color: #7DBA21;
+  color: #7dba21;
   text-transform: capitalize;
   padding: 8px 10px;
 }
@@ -2903,7 +2903,7 @@ img {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #7DBA21;
+  background: #7dba21;
   display: grid;
   place-items: center;
   position: absolute;
@@ -2977,16 +2977,16 @@ img {
   letter-spacing: 0.02em;
   font-size: 16px;
   font-weight: 500;
-  color: #7DBA21;
+  color: #7dba21;
   margin: 10px 10px;
-  border: 1px solid #7DBA21;
+  border: 1px solid #7dba21;
   border-radius: 3px;
   text-transform: capitalize;
   letter-spacing: 0.04rem;
   cursor: pointer;
 }
 #contact form .button button:hover {
-  background: #7DBA21;
+  background: #7dba21;
   color: #ffffff;
 }
 #contact .contact_inf0 {
@@ -3009,7 +3009,7 @@ img {
   margin-bottom: 10px;
 }
 #contact .contact_inf0 .contac_info span i {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #contact .contact_inf0 .contac_info span h5 {
   text-transform: capitalize;
@@ -3037,6 +3037,7 @@ img {
 #Elements .alert .alert-capt h3 {
   text-transform: capitalize;
 }
+
 #mBanner {
   width: 100%;
   position: relative;
@@ -3096,10 +3097,10 @@ img {
   border: 0.1px solid #ebebeb;
 }
 #mBanner .bannerCover .modernSpan .spanUL .festureBtn i {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #mBanner .bannerCover .modernSpan .spanUL .festureBtn:hover {
-  background: #7DBA21;
+  background: #7dba21;
 }
 #mBanner .bannerCover .modernSpan .spanUL .festureBtn:hover i {
   color: #462a2a;
@@ -3124,7 +3125,7 @@ img {
   padding-bottom: 5px;
 }
 #description .describe ul li i {
-  color: #7DBA21;
+  color: #7dba21;
   margin-right: 3px;
 }
 #description h4 {
@@ -3270,7 +3271,7 @@ img {
 }
 #description .pro-img .forSale {
   padding: 6px 10px;
-  background: #7DBA21;
+  background: #7dba21;
   display: block;
   position: absolute;
   left: 5%;
@@ -3290,13 +3291,13 @@ img {
 #description .ad-searse .linFst {
   width: 40px;
   height: 2px;
-  background: #7DBA21;
+  background: #7dba21;
   margin-bottom: 3px;
 }
 #description .ad-searse .lin2nd {
   width: 30px;
   height: 1px;
-  background: #7DBA21;
+  background: #7dba21;
   margin-bottom: 20px;
 }
 #description .ad-searse select {
@@ -3321,7 +3322,7 @@ img {
   width: 12px;
   height: 12px;
   display: inline-block;
-  background: #7DBA21;
+  background: #7dba21;
   position: absolute;
   left: 0;
   top: 50%;
@@ -3332,7 +3333,7 @@ img {
   width: 12px;
   height: 12px;
   display: inline-block;
-  background: #7DBA21;
+  background: #7dba21;
   position: absolute;
   right: 0;
   top: 50%;
@@ -3371,7 +3372,7 @@ img {
   height: 15px;
   cursor: pointer;
   z-index: 3;
-  background: #7DBA21;
+  background: #7dba21;
 }
 #description .ad-searse .other-feature {
   border-bottom: 1px solid #ebebeb;
@@ -3382,12 +3383,12 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #7DBA21;
+  color: #7dba21;
 }
 #description .ad-searse .other-feature .lineBold span {
   width: 40px;
   height: 3px;
-  background: #7DBA21;
+  background: #7dba21;
   display: inline-block;
 }
 #description .ad-searse .other-feature .feature {
@@ -3415,16 +3416,16 @@ img {
   letter-spacing: 0.02em;
   font-size: 16px;
   font-weight: 500;
-  color: #7DBA21;
+  color: #7dba21;
   margin: 10px 10px;
-  border: 1px solid #7DBA21;
+  border: 1px solid #7dba21;
   border-radius: 3px;
   text-transform: capitalize;
   letter-spacing: 0.04rem;
   cursor: pointer;
 }
 #description .ad-searse .other-feature .feature .submit:hover {
-  background: #7DBA21;
+  background: #7dba21;
   color: #ffffff;
 }
 #description .ad-searse .Search {
@@ -3442,14 +3443,14 @@ img {
   display: block;
   width: 40px;
   height: 2px;
-  background: #7DBA21;
+  background: #7dba21;
   margin-bottom: 3px;
 }
 #description .ad-searse .Search ul .bline {
   display: block;
   width: 30px;
   height: 1px;
-  background: #7DBA21;
+  background: #7dba21;
 }
 #description .ad-searse .Search ul .Exline {
   margin-bottom: 20px;
@@ -3475,7 +3476,7 @@ img {
   color: #5a5a5a;
 }
 #description .ad-searse .Search .ulMore span h5:hover {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #description .ad-searse .Search .ulMore span h6 {
   font-weight: 300;
@@ -3489,10 +3490,10 @@ img {
   margin-right: 5px;
 }
 #description .ad-searse .Search .ulMore span h6 a:hover {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #description .ad-searse .Search .ulMore span h6 a:hover i {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #description .ad-searse .Search form {
   position: relative;
@@ -3528,7 +3529,7 @@ img {
   color: #5a5a5a;
 }
 #description .ad-searse .Search .ulagain .liNumber:hover span {
-  color: #7DBA21;
+  color: #7dba21;
 }
 #description .ad-searse .Search .ulSocialplus .liIcn i {
   width: 40px;
@@ -3553,7 +3554,7 @@ img {
   text-transform: capitalize;
 }
 #description .ad-searse .Search .ulTags .tagBtn:hover {
-  background: #7DBA21;
+  background: #7dba21;
   color: #fdfdfd;
 }
 #description .ad-searse .mHouseAgentSlick {
@@ -3646,7 +3647,7 @@ img {
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.07rem;
-  color: #7DBA21;
+  color: #7dba21;
 }
 #description .ad-searse .mHouseAgentSlick .agimg .txtMagent .nativ {
   font-size: 16px;
@@ -3682,7 +3683,7 @@ img {
   display: none;
 }
 #description .ad-searse .mHouseAgentSlick .slick-dots li.slick-active {
-  background: #7DBA21 !important;
+  background: #7dba21 !important;
 }
 
 /* common part---------*/
@@ -3950,7 +3951,7 @@ img {
     margin-right: 2px;
   }
   #description .pro-img .propertyLayer h5 {
-    color: #7DBA21;
+    color: #7dba21;
     font-weight: 600;
   }
   #description .pro-img .propertyLayer h6 {

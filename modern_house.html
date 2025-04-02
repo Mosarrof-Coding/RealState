@@ -1,952 +1,1326 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Real_State (RS)</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Jura:wght@300;400;500;600;700&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/uicons-regular-rounded.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/responaive.css"/>
+    <link rel="shortcut icon" href="/images/neersvg.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Jura:wght@300;400;500;600;700&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="css/uicons-regular-rounded.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/responaive.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <!---navbar part--------------------->
     <section id="navbar">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img class="xsimg" src="images/logors.png" alt="logo">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img class="xsimg" src="images/logors.png" alt="logo" />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown navli">
+                <a
+                  class="nav-link dropdown-toggle liA"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  INDEX
                 </a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item dropdown navli">
-                        <a class="nav-link dropdown-toggle liA" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            INDEX
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-1</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-2</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-3</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-4</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-5</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-5</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-6</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-7</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-8</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-9</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PROPERTIES
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property list</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">right slider</a></li>
-                                <li><a href="#">left slider</a></li>
-                                <li><a href="#">no slider</a></li>
-                                <li><a href="#">full width</a></li>
-                            </ul>
-                        </li>
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property grid</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">right slider</a></li>
-                                <li><a href="#">left slider</a></li>
-                                <li><a href="#">no slider</a></li>
-                                <li><a href="#">full width</a></li>
-                            </ul>
-                        </li>
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property map</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">maplist 01</a></li>
-                                <li><a href="#">maplist 02</a></li>
-                                <li><a href="#">mapgrid 01</a></li>
-                                <li><a href="#">mapgrid 02</a></li>
-                                <li><a href="#">full width</a></li>
-                            </ul>
-                        </li>
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property details</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">property detail 01</a></li>
-                                <li><a href="#">property detail 02</a></li>
-                                <li><a href="#">property detail 03</a></li>
-                                <li><a href="#">property detail 04</a></li>
-                                <li><a href="#">property detail 05</a></li>
-                            </ul>
-                        </li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            AGENTS
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PAGES
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            BLOG
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            MY ACCOUNT
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" aria-current="page" href="#">
-                                SUBMIT PROPERTY
-                           </a>
-                        </li>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-9</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PROPERTIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property list</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">right slider</a></li>
+                      <li><a href="#">left slider</a></li>
+                      <li><a href="#">no slider</a></li>
+                      <li><a href="#">full width</a></li>
                     </ul>
-                </div>
-                <div class="myTogglar">
-                    <span class="line lin1"></span>
-                    <span class="line lin2"></span>
-                    <span class="line lin3"></span>
-                </div>
-                <div class="responsivrMenu">
-                    <div class="intoborder">
-                    </div>
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item dropdown navli">
-                        <a class="nav-link dropdown-toggle liA" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            INDEX
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-1</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-2</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-3</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-4</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-5</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-5</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-6</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-7</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-8</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">serial-9</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PROPERTIES
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property list</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">right slider</a></li>
-                                <li><a href="#">left slider</a></li>
-                                <li><a href="#">no slider</a></li>
-                                <li><a href="#">full width</a></li>
-                            </ul>
-                        </li>
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property grid</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">right slider</a></li>
-                                <li><a href="#">left slider</a></li>
-                                <li><a href="#">no slider</a></li>
-                                <li><a href="#">full width</a></li>
-                            </ul>
-                        </li>
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property map</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">maplist 01</a></li>
-                                <li><a href="#">maplist 02</a></li>
-                                <li><a href="#">mapgrid 01</a></li>
-                                <li><a href="#">mapgrid 02</a></li>
-                                <li><a href="#">full width</a></li>
-                            </ul>
-                        </li>
-                            <li class="dorpdowen-li"><a class="dropdown-item" href="#">property details</a> <i class="fas fa-chevron-right"></i>
-                            <ul>
-                                <li><a href="#">property detail 01</a></li>
-                                <li><a href="#">property detail 02</a></li>
-                                <li><a href="#">property detail 03</a></li>
-                                <li><a href="#">property detail 04</a></li>
-                                <li><a href="#">property detail 05</a></li>
-                            </ul>
-                        </li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            AGENTS
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PAGES
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            BLOG
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            MY ACCOUNT
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" aria-current="page" href="#">
-                                SUBMIT PROPERTY
-                           </a>
-                        </li>
+                  </li>
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property grid</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">right slider</a></li>
+                      <li><a href="#">left slider</a></li>
+                      <li><a href="#">no slider</a></li>
+                      <li><a href="#">full width</a></li>
                     </ul>
-                </div>
-            </div>
-        </nav>
+                  </li>
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property map</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">maplist 01</a></li>
+                      <li><a href="#">maplist 02</a></li>
+                      <li><a href="#">mapgrid 01</a></li>
+                      <li><a href="#">mapgrid 02</a></li>
+                      <li><a href="#">full width</a></li>
+                    </ul>
+                  </li>
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property details</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">property detail 01</a></li>
+                      <li><a href="#">property detail 02</a></li>
+                      <li><a href="#">property detail 03</a></li>
+                      <li><a href="#">property detail 04</a></li>
+                      <li><a href="#">property detail 05</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  AGENTS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  BLOG
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MY ACCOUNT
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  SUBMIT PROPERTY
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="myTogglar">
+            <span class="line lin1"></span>
+            <span class="line lin2"></span>
+            <span class="line lin3"></span>
+          </div>
+          <div class="responsivrMenu">
+            <div class="intoborder"></div>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown navli">
+                <a
+                  class="nav-link dropdown-toggle liA"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  INDEX
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:void(0)"
+                      >serial-9</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PROPERTIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property list</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">right slider</a></li>
+                      <li><a href="#">left slider</a></li>
+                      <li><a href="#">no slider</a></li>
+                      <li><a href="#">full width</a></li>
+                    </ul>
+                  </li>
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property grid</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">right slider</a></li>
+                      <li><a href="#">left slider</a></li>
+                      <li><a href="#">no slider</a></li>
+                      <li><a href="#">full width</a></li>
+                    </ul>
+                  </li>
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property map</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">maplist 01</a></li>
+                      <li><a href="#">maplist 02</a></li>
+                      <li><a href="#">mapgrid 01</a></li>
+                      <li><a href="#">mapgrid 02</a></li>
+                      <li><a href="#">full width</a></li>
+                    </ul>
+                  </li>
+                  <li class="dorpdowen-li">
+                    <a class="dropdown-item" href="#">property details</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <ul>
+                      <li><a href="#">property detail 01</a></li>
+                      <li><a href="#">property detail 02</a></li>
+                      <li><a href="#">property detail 03</a></li>
+                      <li><a href="#">property detail 04</a></li>
+                      <li><a href="#">property detail 05</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  AGENTS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  BLOG
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MY ACCOUNT
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  SUBMIT PROPERTY
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </section>
 
     <!--modern house banner part--------->
     <section id="mBanner">
-        <div class="topper">
-            <a href="#"><i class="fas fa-arrow-up"></i></a>
+      <div class="topper">
+        <a href="#"><i class="fas fa-arrow-up"></i></a>
+      </div>
+      <div class="modernBannerSlick">
+        <div class="mhImgItm">
+          <img src="images/decoration(1).jpg" alt="images" />
         </div>
-        <div class="modernBannerSlick">
-            <div class="mhImgItm">
-                <img src="images/decoration(1).jpg" alt="images">
-            </div>
-            <div class="mhImgItm">
-                <img src="images/decoration(2).jpg" alt="images">
-            </div>
-            <div class="mhImgItm">
-                <img src="images/decoration(3).jpg" alt="images">
-            </div>
-            <div class="mhImgItm">
-                <img src="images/decoration(4).jpg" alt="images">
-            </div>
-            <div class="mhImgItm">
-                <img src="images/decoration(5).jpg" alt="images">
-            </div>
-            <div class="mhImgItm">
-                <img src="images/decoration(6).jpg" alt="images">
-            </div>
-            <div class="mhImgItm">
-                <img src="images/decoration(7).jpg" alt="images">
-            </div>
-            <div class="mhImgItm">
-                <img src="images/decoration(8).jpg" alt="images">
-            </div>
+        <div class="mhImgItm">
+          <img src="images/decoration(2).jpg" alt="images" />
         </div>
-        <div class="bannerCover">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="modernTXT">
-                            <h2>mosh crystale chyan list</h2>
-                            <div class="span">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i style="color:rgb(250, 125, 223)">(37 Reviews)</i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="modernSpan">
-                            <h2 style="color:rgb(250, 125, 223)">$2825.00</h2>
-                            <ul class="spanUL">
-                                <li class="festureBtn"><i class="fa-solid fa-bed"></i> bed 3</li>
-                                <li class="festureBtn"><i class="fa-solid fa-bath"></i> beds 2</li>
-                                <li class="festureBtn"><i class="fa-solid fa-table-cells"></i> sq.ft 3202</li>
-                                <li class="festureBtn"><i class="fa-solid fa-warehouse"></i> garage 1</li>
-                                <li class="festureBtn"><i class="fa-brands fa-buromobelexperte"></i> belcony</li>
-                            </ul>
-                        </div>
-                    </div>
+        <div class="mhImgItm">
+          <img src="images/decoration(3).jpg" alt="images" />
+        </div>
+        <div class="mhImgItm">
+          <img src="images/decoration(4).jpg" alt="images" />
+        </div>
+        <div class="mhImgItm">
+          <img src="images/decoration(5).jpg" alt="images" />
+        </div>
+        <div class="mhImgItm">
+          <img src="images/decoration(6).jpg" alt="images" />
+        </div>
+        <div class="mhImgItm">
+          <img src="images/decoration(7).jpg" alt="images" />
+        </div>
+        <div class="mhImgItm">
+          <img src="images/decoration(8).jpg" alt="images" />
+        </div>
+      </div>
+      <div class="bannerCover">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="modernTXT">
+                <h2>mosh crystale chyan list</h2>
+                <div class="span">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i style="color: rgb(250, 125, 223)">(37 Reviews)</i>
                 </div>
+              </div>
             </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="modernSpan">
+                <h2 style="color: rgb(250, 125, 223)">$2825.00</h2>
+                <ul class="spanUL">
+                  <li class="festureBtn">
+                    <i class="fa-solid fa-bed"></i> bed 3
+                  </li>
+                  <li class="festureBtn">
+                    <i class="fa-solid fa-bath"></i> beds 2
+                  </li>
+                  <li class="festureBtn">
+                    <i class="fa-solid fa-table-cells"></i> sq.ft 3202
+                  </li>
+                  <li class="festureBtn">
+                    <i class="fa-solid fa-warehouse"></i> garage 1
+                  </li>
+                  <li class="festureBtn">
+                    <i class="fa-brands fa-buromobelexperte"></i> belcony
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- description part---------------->
     <section id="description">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="describe">
-                        <h4>Description</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat. Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa, a consequat purus viverra a. Aliquam pellentesque nibh et nibh feugiat gravida. Maecenas ultricies, diam vitae semper placerat, velit risus accumsan nisl, eget tempor lacus est vel nunc. Proin accumsan elit sed neque euismod fringilla. Curabitur lobortis nunc velit, et fermentum urna dapibus non. Vivamus magna lorem, elementum id gravida ac, laoreet tristique augue. Maecenas dictum lacus eu nunc porttitor, ut hendrerit arcu efficitur.</p>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h4>feature</h4>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                <ul>
-                                    <li><i class="fa-solid fa-check"></i> Air conditioning</li>
-                                    <li><i class="fa-solid fa-check"></i> Balcony</li>
-                                    <li><i class="fa-solid fa-check"></i> Pool</li>
-                                    <li><i class="fa-solid fa-check"></i> Room service</li>
-                                    <li><i class="fa-solid fa-check"></i> Gym</li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                <ul>
-                                    <li><i class="fa-solid fa-check"></i> Wifi</li>
-                                    <li><i class="fa-solid fa-check"></i> Parking</li>
-                                    <li><i class="fa-solid fa-check"></i> Double Bed</li>
-                                    <li><i class="fa-solid fa-check"></i> Home Theater</li>
-                                    <li><i class="fa-solid fa-check"></i> Electric</li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                <ul>
-                                    <li><i class="fa-solid fa-check"></i> Telephone</li>
-                                    <li><i class="fa-solid fa-check"></i> Jacuzzi</li>
-                                    <li><i class="fa-solid fa-check"></i> Garage</li>
-                                    <li><i class="fa-solid fa-check"></i> Security</li>
-                                    <li><i class="fa-solid fa-check"></i> Alarm</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <h4>flor plan</h4>
-                    <table>
-                        <tr>
-                            <th>Size</th>			
-                            <th>Rooms</th>
-                            <th>Bathrooms</th>
-                            <th>Garage</th>
-                        </tr>
-                        <tr>
-                            <td>1300</td>
-                            <td>3</td>
-                            <td>2</td>
-                            <td>1</td>
-                        </tr>
-                    </table>
-                    <div class="diagram">
-                        <img src="images/floor-plans.png" alt="">
-                    </div>
-                    <div class="map">
-                        <h4>Property Location</h4>
-                        <div class="mapouter"><div class="gmap_canvas"><iframe width="" height="" id="gmap_canvas" src="https://maps.google.com/maps?q=california&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co"></a><br><style>.mapouter{position:relative;text-align:right;}</style><a href="https://embedgooglemap.2yu.co"></a><style>.gmap_canvas {overflow:hidden;background:none!important}</style></div></div>
-                    </div>
-                    <div class="pro-video">
-                        <h4>Property Video</h4>
-                        <iframe width="" height="350" src="https://www.youtube.com/embed/5e0LxrLSzok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                    <h4>Similar Properties</h4>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="pro-img">
-                                <img class="w-100 img-fluid" src="images/product (1).jpg" alt="">
-                                <div class="property-text">
-                                    <h5>Relaxing Apartment</h5>
-                                    <h6><i class="fa-solid fa-location-dot"></i> 123 Kathal St. Tampa City</h6>
-                                    <div class="coarse">
-                                        <span><i class="fa-solid fa-table-cells-large"></i> 4800 sq.ft</span>
-                                        <span><i class="fa-solid fa-bed"></i> 3 beds</span>
-                                        <span><i class="fa-solid fa-shower"></i> 3 baths</span>
-                                        <span><i class="fa-solid fa-warehouse"></i> garage 2</span>
-                                        <span><i class="fa-brands fa-buromobelexperte"></i> belcony</span>
-                                        <span><i class="fa-solid fa-person-military-rifle"></i> security</span>
-                                    </div>
-                                </div>
-                                <div class="propertyLayer">
-                                    <h5>Relaxing Apartment</h5>
-                                    <h6><i class="fa-solid fa-location-dot"></i> 123 Kathal St. Tampa City</h6>
-                                    <div class="coarse">
-                                        <span><i class="fa-solid fa-table-cells-large"></i> 4800 sq.ft</span>
-                                        <span><i class="fa-solid fa-bed"></i> 3 beds</span>
-                                        <span><i class="fa-solid fa-shower"></i> 3 baths</span>
-                                        <span><i class="fa-solid fa-warehouse"></i> garage 2</span>
-                                        <span><i class="fa-brands fa-buromobelexperte"></i> belcony</span>
-                                        <span><i class="fa-solid fa-person-military-rifle"></i> security</span>
-                                    </div>
-                                </div>
-                                <div class="forSale">
-                                    For Sale
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="pro-img">
-                                <img src="images/product (8).jpg" alt="">
-                                <div class="property-text">
-                                    <h5>Two storey modern flat</h5>
-                                    <h6><i class="fa-solid fa-location-dot"></i> 123 Kathal St. Tampa City</h6>
-                                    <div class="coarse">
-                                        <span><i class="fa-solid fa-table-cells-large"></i> 4800 sq.ft</span>
-                                        <span><i class="fa-solid fa-bed"></i> 3 beds</span>
-                                        <span><i class="fa-solid fa-shower"></i> 3 baths</span>
-                                        <span><i class="fa-solid fa-warehouse"></i> garage 2</span>
-                                        <span><i class="fa-brands fa-buromobelexperte"></i> belcony</span>
-                                        <span><i class="fa-solid fa-person-military-rifle"></i> security</span>
-                                    </div>
-                                </div>
-                                <div class="propertyLayer">
-                                    <h5>Two storey modern flat</h5>
-                                    <h6><i class="fa-solid fa-location-dot"></i> 123 Kathal St. Tampa City</h6>
-                                    <div class="coarse">
-                                        <span><i class="fa-solid fa-table-cells-large"></i> 4800 sq.ft</span>
-                                        <span><i class="fa-solid fa-bed"></i> 3 beds</span>
-                                        <span><i class="fa-solid fa-shower"></i> 3 baths</span>
-                                        <span><i class="fa-solid fa-warehouse"></i> garage 2</span>
-                                        <span><i class="fa-brands fa-buromobelexperte"></i> belcony</span>
-                                        <span><i class="fa-solid fa-person-military-rifle"></i> security</span>
-                                    </div>
-                                </div>
-                                <div class="forSale">
-                                    For Rent
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="describe">
+              <h4>Description</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.
+                Donec a consectetur nulla. Nulla posuere sapien vitae lectus
+                suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat.
+                Curabitur convallis fringilla diam sed aliquam. Sed tempor
+                iaculis massa faucibus feugiat. In fermentum facilisis massa, a
+                consequat purus viverra a. Aliquam pellentesque nibh et nibh
+                feugiat gravida. Maecenas ultricies, diam vitae semper placerat,
+                velit risus accumsan nisl, eget tempor lacus est vel nunc. Proin
+                accumsan elit sed neque euismod fringilla. Curabitur lobortis
+                nunc velit, et fermentum urna dapibus non. Vivamus magna lorem,
+                elementum id gravida ac, laoreet tristique augue. Maecenas
+                dictum lacus eu nunc porttitor, ut hendrerit arcu efficitur.
+              </p>
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4>feature</h4>
                 </div>
-                <div class="col-lg-4">
-                    <div class="ad-searse">
-                        <h4>advanched search</h4>
-                        <div class="linFst"></div>
-                        <div class="lin2nd mrBottom"></div>
-                        <select name="" id="">
-                            <option value="">all statuse</option>
-                            <option value="">for rent</option>
-                            <option value="">for sale</option>
-                        </select>
-                        <select name="" id="">
-                            <option value="">all typs</option>
-                            <option value="">apertment</option>
-                            <option value="">shope</option>
-                            <option value="">restaurant</option>
-                            <option value="">villa</option>
-                        </select>
-                        <select name="" id="">
-                            <option value="">commersial</option>
-                            <option value="">residential</option>
-                            <option value="">commersial</option>
-                            <option value="">land</option>
-                        </select>
-                        <select name="" id="">
-                            <option value="">residential</option>
-                            <option value="">united states</option>
-                            <option value="">phonm penh</option>
-                            <option value="">combodia</option>
-                        </select>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <select name="" id="">
-                                    <option value="">bed rooms</option>
-                                    <option value="">1</option>
-                                    <option value="">2</option>
-                                    <option value="">3</option>
-                                    <option value="">4</option>
-                                </select>
-                                <select name="" id="">
-                                    <option value="">bath rooms</option>
-                                    <option value="">1</option>
-                                    <option value="">2</option>
-                                    <option value="">3</option>
-                                    <option value="">4</option>
-                                </select>
-                            </div>
-                            <div class="col-lg-6">
-                                <select name="" id="">
-                                    <option value="">bell cony</option>
-                                    <option value="">1</option>
-                                    <option value="">2</option>
-                                    <option value="">3</option>
-                                    <option value="">4</option>
-                                </select>
-                                <select name="" id="">
-                                    <option value="">garage</option>
-                                    <option value="">1</option>
-                                    <option value="">2</option>
-                                    <option value="">3</option>
-                                    <option value="">4</option>
-                                </select>
-                            </div>
-                        </div>
-                        <form action="">
-                            <h5>Area</h5>
-                            <div class="area">
-                                <div class="store">%</div>
-                                <input type="range" min="0" max="10000" value="" id="slider">
-                                <div class="selector">
-                                </div>
-                            </div>
-                        </form>
-                        <div class="other-feature">
-                            <h5 class="lineBold">other features <span></span></h5>
-                            <div class="feature">
-                                <h5>feature</h5>
-                                <div class="linFst"></div>
-                                <div class="lin2nd mrBottom"></div>
-                                <div class="input-group">
-                                    <input type="checkbox">
-                                    <label for="">air condition</label>
-                                </div>
-                                <div class="input-group">
-                                    <input type="checkbox">
-                                    <label for=""> Places to seat</label>
-                                </div>
-                                <div class="input-group">
-                                    <input type="checkbox">
-                                    <label for=""> Swimming Pool</label>
-                                </div>
-                                <div class="input-group">
-                                    <input type="checkbox">
-                                    <label for=""> Central Heating</label>
-                                </div>
-                                <div class="input-group">
-                                    <input type="checkbox">
-                                    <label for=""> Free Parking</label>
-                                </div>
-                                <div class="input-group">
-                                    <input type="checkbox">
-                                    <label for=""> Laundry Room</label>
-                                </div>
-                                <div class="input-group">
-                                    <input type="checkbox">
-                                    <label for="">Window Covering</label>
-                                </div>
-                                <div class="input-group">
-                                    <input type="checkbox">
-                                    <label for=""> Alarm</label>
-                                </div>
-                                <div class="submit">
-                                    Search
-                                </div>
-                            </div>
-                        </div>
-                        <div class="Search">
-                            <ul><h4>Recent properties</h4>
-                                <li class="sline"></li>
-                                <li class="bline Exline"></li>
-                            </ul>
-                            <ul class="ulMore">
-                                <li class="liancor">
-                                    <a class="blogThumb" href="modern_house.html">
-                                        <img src="images/blog (1).jpg" alt="images">
-                                    </a>
-                                    <span>
-                                        <a href="#"><h5>Modern Family Home</h5></a>
-                                        <h6>$391,000 | <a href="#"><i class="fa-regular fa-calendar-days"></i>Oct 27,2023</a></h6>
-                                    </span>
-                                </li>
-                            </ul>
-                            <ul class="ulMore">
-                                <li class="liancor">
-                                    <a class="blogThumb" href="#">
-                                        <img src="images/blog (5).jpg" alt="images">
-                                    </a>
-                                    <span>
-                                        <a href="#"><h5>Beautiful Single Home</h5></a>
-                                        <h6>$501,000 | <a href="#"><i class="fa-regular fa-calendar-days"></i>Nov 08,2023</a></h6>
-                                    </span>
-                                </li>
-                            </ul>
-                            <ul class="ulMore" style="padding-bottom: 0px;">
-                                <li class="liancor">
-                                    <a class="blogThumb" href="#">
-                                        <img src="images/blog (3).jpg" alt="images">
-                                    </a>
-                                    <span>
-                                        <a href="#"><h5>Real Luxury Villa</h5></a>
-                                        <h6>$772,000 | <a href="#"><i class="fa-regular fa-calendar-days"></i>Dec 20,2023</a></h6>
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="Search">
-                            <ul><h4>categories</h4>
-                                <li class="sline"></li>
-                                <li class="bline Exline"></li>
-                            </ul>
-                            <ul class="ulSocialplus">
-                                <li class="liIcn"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li class="liIcn"><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
-                                <li class="liIcn"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                <li class="liIcn"><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
-                                <li class="liIcn"><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="Search">
-                            <ul><h4>Our Agent</h4>
-                                <li class="sline"></li>
-                                <li class="bline Exline"></li>
-                            </ul>
-                            <div class="mHouseAgentSlick">
-                                <div class="agimg">
-                                    <div class="karen">
-                                        <img class="w-100" src="images/agent(1).jpg" alt="">
-                                        <div class="karenoverlay">
-                                            <div class="iconjump">
-                                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
-                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="before">
-                                        </div>
-                                        <div class="after">
-                                        </div>
-                                    </div>
-                                    <div class="txtMagent">
-                                        <h5 class="textfont">Charls Dicken</h5>
-                                        <span class="desigfont">creativ designer</span>
-                                        <h6 class="nativ">New York</h6>
-                                    </div>
-                                </div>
-                                <div class="agimg">
-                                    <div class="karen">
-                                        <img class="w-100" src="images/agent(2).jpg" alt="">
-                                        <div class="karenoverlay">
-                                            <div class="iconjump">
-                                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
-                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="before">
-                                        </div>
-                                        <div class="after">
-                                        </div>
-                                    </div>
-                                    <div class="txtMagent">
-                                        <h5 class="textfont">Kenedy los</h5>
-                                        <span class="desigfont">Web Designer</span>
-                                        <h6 class="nativ">Sanfransisco</h6>
-                                    </div>
-                                </div>
-                                <div class="agimg">
-                                    <div class="karen">
-                                        <img class="w-100" src="images/agent(3).jpg" alt="">
-                                        <div class="karenoverlay">
-                                            <div class="iconjump">
-                                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
-                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="before">
-                                        </div>
-                                        <div class="after">
-                                        </div>
-                                    </div>
-                                    <div class="txtMagent">
-                                        <h5 class="textfont">Heinous fin</h5>
-                                        <span class="desigfont">Front Eand Deaveloper</span>
-                                        <h6 class="nativ">Kumedpur</h6>
-                                    </div>
-                                </div>
-                                <div class="agimg">
-                                    <div class="karen">
-                                        <img class="w-100" src="images/agent(4).jpg" alt="">
-                                        <div class="karenoverlay">
-                                            <div class="iconjump">
-                                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
-                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="before">
-                                        </div>
-                                        <div class="after">
-                                        </div>
-                                    </div>
-                                    <div class="txtMagent">
-                                        <h5 class="textfont">Julia Cheaser</h5>
-                                        <span class="desigfont">Back End Developer</span>
-                                        <h6 class="nativ">Californya</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <ul>
+                    <li><i class="fa-solid fa-check"></i> Air conditioning</li>
+                    <li><i class="fa-solid fa-check"></i> Balcony</li>
+                    <li><i class="fa-solid fa-check"></i> Pool</li>
+                    <li><i class="fa-solid fa-check"></i> Room service</li>
+                    <li><i class="fa-solid fa-check"></i> Gym</li>
+                  </ul>
                 </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <ul>
+                    <li><i class="fa-solid fa-check"></i> Wifi</li>
+                    <li><i class="fa-solid fa-check"></i> Parking</li>
+                    <li><i class="fa-solid fa-check"></i> Double Bed</li>
+                    <li><i class="fa-solid fa-check"></i> Home Theater</li>
+                    <li><i class="fa-solid fa-check"></i> Electric</li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <ul>
+                    <li><i class="fa-solid fa-check"></i> Telephone</li>
+                    <li><i class="fa-solid fa-check"></i> Jacuzzi</li>
+                    <li><i class="fa-solid fa-check"></i> Garage</li>
+                    <li><i class="fa-solid fa-check"></i> Security</li>
+                    <li><i class="fa-solid fa-check"></i> Alarm</li>
+                  </ul>
+                </div>
+              </div>
             </div>
+            <h4>flor plan</h4>
+            <table>
+              <tr>
+                <th>Size</th>
+                <th>Rooms</th>
+                <th>Bathrooms</th>
+                <th>Garage</th>
+              </tr>
+              <tr>
+                <td>1300</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+              </tr>
+            </table>
+            <div class="diagram">
+              <img src="images/floor-plans.png" alt="" />
+            </div>
+            <div class="map">
+              <h4>Property Location</h4>
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    width=""
+                    height=""
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=california&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe
+                  ><a href="https://2yu.co"></a><br /><style>
+                    .mapouter {
+                      position: relative;
+                      text-align: right;
+                    }</style
+                  ><a href="https://embedgooglemap.2yu.co"></a
+                  ><style>
+                    .gmap_canvas {
+                      overflow: hidden;
+                      background: none !important;
+                    }
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div class="pro-video">
+              <h4>Property Video</h4>
+              <iframe
+                width=""
+                height="350"
+                src="https://www.youtube.com/embed/5e0LxrLSzok"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h4>Similar Properties</h4>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="pro-img">
+                  <img
+                    class="w-100 img-fluid"
+                    src="images/product (1).jpg"
+                    alt=""
+                  />
+                  <div class="property-text">
+                    <h5>Relaxing Apartment</h5>
+                    <h6>
+                      <i class="fa-solid fa-location-dot"></i> 123 Kathal St.
+                      Tampa City
+                    </h6>
+                    <div class="coarse">
+                      <span
+                        ><i class="fa-solid fa-table-cells-large"></i> 4800
+                        sq.ft</span
+                      >
+                      <span><i class="fa-solid fa-bed"></i> 3 beds</span>
+                      <span><i class="fa-solid fa-shower"></i> 3 baths</span>
+                      <span
+                        ><i class="fa-solid fa-warehouse"></i> garage 2</span
+                      >
+                      <span
+                        ><i class="fa-brands fa-buromobelexperte"></i>
+                        belcony</span
+                      >
+                      <span
+                        ><i class="fa-solid fa-person-military-rifle"></i>
+                        security</span
+                      >
+                    </div>
+                  </div>
+                  <div class="propertyLayer">
+                    <h5>Relaxing Apartment</h5>
+                    <h6>
+                      <i class="fa-solid fa-location-dot"></i> 123 Kathal St.
+                      Tampa City
+                    </h6>
+                    <div class="coarse">
+                      <span
+                        ><i class="fa-solid fa-table-cells-large"></i> 4800
+                        sq.ft</span
+                      >
+                      <span><i class="fa-solid fa-bed"></i> 3 beds</span>
+                      <span><i class="fa-solid fa-shower"></i> 3 baths</span>
+                      <span
+                        ><i class="fa-solid fa-warehouse"></i> garage 2</span
+                      >
+                      <span
+                        ><i class="fa-brands fa-buromobelexperte"></i>
+                        belcony</span
+                      >
+                      <span
+                        ><i class="fa-solid fa-person-military-rifle"></i>
+                        security</span
+                      >
+                    </div>
+                  </div>
+                  <div class="forSale">For Sale</div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="pro-img">
+                  <img src="images/product (8).jpg" alt="" />
+                  <div class="property-text">
+                    <h5>Two storey modern flat</h5>
+                    <h6>
+                      <i class="fa-solid fa-location-dot"></i> 123 Kathal St.
+                      Tampa City
+                    </h6>
+                    <div class="coarse">
+                      <span
+                        ><i class="fa-solid fa-table-cells-large"></i> 4800
+                        sq.ft</span
+                      >
+                      <span><i class="fa-solid fa-bed"></i> 3 beds</span>
+                      <span><i class="fa-solid fa-shower"></i> 3 baths</span>
+                      <span
+                        ><i class="fa-solid fa-warehouse"></i> garage 2</span
+                      >
+                      <span
+                        ><i class="fa-brands fa-buromobelexperte"></i>
+                        belcony</span
+                      >
+                      <span
+                        ><i class="fa-solid fa-person-military-rifle"></i>
+                        security</span
+                      >
+                    </div>
+                  </div>
+                  <div class="propertyLayer">
+                    <h5>Two storey modern flat</h5>
+                    <h6>
+                      <i class="fa-solid fa-location-dot"></i> 123 Kathal St.
+                      Tampa City
+                    </h6>
+                    <div class="coarse">
+                      <span
+                        ><i class="fa-solid fa-table-cells-large"></i> 4800
+                        sq.ft</span
+                      >
+                      <span><i class="fa-solid fa-bed"></i> 3 beds</span>
+                      <span><i class="fa-solid fa-shower"></i> 3 baths</span>
+                      <span
+                        ><i class="fa-solid fa-warehouse"></i> garage 2</span
+                      >
+                      <span
+                        ><i class="fa-brands fa-buromobelexperte"></i>
+                        belcony</span
+                      >
+                      <span
+                        ><i class="fa-solid fa-person-military-rifle"></i>
+                        security</span
+                      >
+                    </div>
+                  </div>
+                  <div class="forSale">For Rent</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="ad-searse">
+              <h4>advanched search</h4>
+              <div class="linFst"></div>
+              <div class="lin2nd mrBottom"></div>
+              <select name="" id="">
+                <option value="">all statuse</option>
+                <option value="">for rent</option>
+                <option value="">for sale</option>
+              </select>
+              <select name="" id="">
+                <option value="">all typs</option>
+                <option value="">apertment</option>
+                <option value="">shope</option>
+                <option value="">restaurant</option>
+                <option value="">villa</option>
+              </select>
+              <select name="" id="">
+                <option value="">commersial</option>
+                <option value="">residential</option>
+                <option value="">commersial</option>
+                <option value="">land</option>
+              </select>
+              <select name="" id="">
+                <option value="">residential</option>
+                <option value="">united states</option>
+                <option value="">phonm penh</option>
+                <option value="">combodia</option>
+              </select>
+              <div class="row">
+                <div class="col-lg-6">
+                  <select name="" id="">
+                    <option value="">bed rooms</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                  </select>
+                  <select name="" id="">
+                    <option value="">bath rooms</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                  </select>
+                </div>
+                <div class="col-lg-6">
+                  <select name="" id="">
+                    <option value="">bell cony</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                  </select>
+                  <select name="" id="">
+                    <option value="">garage</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                  </select>
+                </div>
+              </div>
+              <form action="">
+                <h5>Area</h5>
+                <div class="area">
+                  <div class="store">%</div>
+                  <input
+                    type="range"
+                    min="0"
+                    max="10000"
+                    value=""
+                    id="slider"
+                  />
+                  <div class="selector"></div>
+                </div>
+              </form>
+              <div class="other-feature">
+                <h5 class="lineBold">other features <span></span></h5>
+                <div class="feature">
+                  <h5>feature</h5>
+                  <div class="linFst"></div>
+                  <div class="lin2nd mrBottom"></div>
+                  <div class="input-group">
+                    <input type="checkbox" />
+                    <label for="">air condition</label>
+                  </div>
+                  <div class="input-group">
+                    <input type="checkbox" />
+                    <label for=""> Places to seat</label>
+                  </div>
+                  <div class="input-group">
+                    <input type="checkbox" />
+                    <label for=""> Swimming Pool</label>
+                  </div>
+                  <div class="input-group">
+                    <input type="checkbox" />
+                    <label for=""> Central Heating</label>
+                  </div>
+                  <div class="input-group">
+                    <input type="checkbox" />
+                    <label for=""> Free Parking</label>
+                  </div>
+                  <div class="input-group">
+                    <input type="checkbox" />
+                    <label for=""> Laundry Room</label>
+                  </div>
+                  <div class="input-group">
+                    <input type="checkbox" />
+                    <label for="">Window Covering</label>
+                  </div>
+                  <div class="input-group">
+                    <input type="checkbox" />
+                    <label for=""> Alarm</label>
+                  </div>
+                  <div class="submit">Search</div>
+                </div>
+              </div>
+              <div class="Search">
+                <ul>
+                  <h4>Recent properties</h4>
+                  <li class="sline"></li>
+                  <li class="bline Exline"></li>
+                </ul>
+                <ul class="ulMore">
+                  <li class="liancor">
+                    <a class="blogThumb" href="modern_house.html">
+                      <img src="images/blog (1).jpg" alt="images" />
+                    </a>
+                    <span>
+                      <a href="#"><h5>Modern Family Home</h5></a>
+                      <h6>
+                        $391,000 |
+                        <a href="#"
+                          ><i class="fa-regular fa-calendar-days"></i>Oct
+                          27,2023</a
+                        >
+                      </h6>
+                    </span>
+                  </li>
+                </ul>
+                <ul class="ulMore">
+                  <li class="liancor">
+                    <a class="blogThumb" href="#">
+                      <img src="images/blog (5).jpg" alt="images" />
+                    </a>
+                    <span>
+                      <a href="#"><h5>Beautiful Single Home</h5></a>
+                      <h6>
+                        $501,000 |
+                        <a href="#"
+                          ><i class="fa-regular fa-calendar-days"></i>Nov
+                          08,2023</a
+                        >
+                      </h6>
+                    </span>
+                  </li>
+                </ul>
+                <ul class="ulMore" style="padding-bottom: 0px">
+                  <li class="liancor">
+                    <a class="blogThumb" href="#">
+                      <img src="images/blog (3).jpg" alt="images" />
+                    </a>
+                    <span>
+                      <a href="#"><h5>Real Luxury Villa</h5></a>
+                      <h6>
+                        $772,000 |
+                        <a href="#"
+                          ><i class="fa-regular fa-calendar-days"></i>Dec
+                          20,2023</a
+                        >
+                      </h6>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="Search">
+                <ul>
+                  <h4>categories</h4>
+                  <li class="sline"></li>
+                  <li class="bline Exline"></li>
+                </ul>
+                <ul class="ulSocialplus">
+                  <li class="liIcn">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li class="liIcn">
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                  </li>
+                  <li class="liIcn">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li class="liIcn">
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                  </li>
+                  <li class="liIcn">
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="Search">
+                <ul>
+                  <h4>Our Agent</h4>
+                  <li class="sline"></li>
+                  <li class="bline Exline"></li>
+                </ul>
+                <div class="mHouseAgentSlick">
+                  <div class="agimg">
+                    <div class="karen">
+                      <img class="w-100" src="images/agent(1).jpg" alt="" />
+                      <div class="karenoverlay">
+                        <div class="iconjump">
+                          <a href="#"
+                            ><i class="fa-brands fa-facebook-f"></i
+                          ></a>
+                          <a href="#"
+                            ><i class="fa-brands fa-google-plus-g"></i
+                          ></a>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="#"
+                            ><i class="fa-brands fa-pinterest-p"></i
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="before"></div>
+                      <div class="after"></div>
+                    </div>
+                    <div class="txtMagent">
+                      <h5 class="textfont">Charls Dicken</h5>
+                      <span class="desigfont">creativ designer</span>
+                      <h6 class="nativ">New York</h6>
+                    </div>
+                  </div>
+                  <div class="agimg">
+                    <div class="karen">
+                      <img class="w-100" src="images/agent(2).jpg" alt="" />
+                      <div class="karenoverlay">
+                        <div class="iconjump">
+                          <a href="#"
+                            ><i class="fa-brands fa-facebook-f"></i
+                          ></a>
+                          <a href="#"
+                            ><i class="fa-brands fa-google-plus-g"></i
+                          ></a>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="#"
+                            ><i class="fa-brands fa-pinterest-p"></i
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="before"></div>
+                      <div class="after"></div>
+                    </div>
+                    <div class="txtMagent">
+                      <h5 class="textfont">Kenedy los</h5>
+                      <span class="desigfont">Web Designer</span>
+                      <h6 class="nativ">Sanfransisco</h6>
+                    </div>
+                  </div>
+                  <div class="agimg">
+                    <div class="karen">
+                      <img class="w-100" src="images/agent(3).jpg" alt="" />
+                      <div class="karenoverlay">
+                        <div class="iconjump">
+                          <a href="#"
+                            ><i class="fa-brands fa-facebook-f"></i
+                          ></a>
+                          <a href="#"
+                            ><i class="fa-brands fa-google-plus-g"></i
+                          ></a>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="#"
+                            ><i class="fa-brands fa-pinterest-p"></i
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="before"></div>
+                      <div class="after"></div>
+                    </div>
+                    <div class="txtMagent">
+                      <h5 class="textfont">Heinous fin</h5>
+                      <span class="desigfont">Front Eand Deaveloper</span>
+                      <h6 class="nativ">Kumedpur</h6>
+                    </div>
+                  </div>
+                  <div class="agimg">
+                    <div class="karen">
+                      <img class="w-100" src="images/agent(4).jpg" alt="" />
+                      <div class="karenoverlay">
+                        <div class="iconjump">
+                          <a href="#"
+                            ><i class="fa-brands fa-facebook-f"></i
+                          ></a>
+                          <a href="#"
+                            ><i class="fa-brands fa-google-plus-g"></i
+                          ></a>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="#"
+                            ><i class="fa-brands fa-pinterest-p"></i
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="before"></div>
+                      <div class="after"></div>
+                    </div>
+                    <div class="txtMagent">
+                      <h5 class="textfont">Julia Cheaser</h5>
+                      <span class="desigfont">Back End Developer</span>
+                      <h6 class="nativ">Californya</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- modern house part--------------->
     <section class="modernHouse">
-        <div class="container">
-
-        </div>
+      <div class="container"></div>
     </section>
 
     <!-- intro part---------------------->
     <section id="intro">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9 intr0-faq">
-                    <h3>
-                        do you have any question?
-                    </h3>
-                </div>
-                <div class="col-lg-3 intro-btn">
-                    <a href="javascript:void(0)">
-                        get in touch
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 intr0-faq">
+            <h3>do you have any question?</h3>
+          </div>
+          <div class="col-lg-3 intro-btn">
+            <a href="javascript:void(0)"> get in touch </a>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- footer-------------------------->
     <section id="footer">
-        <div class="lines">
-            <div class="line">
-                <div class="drop">
-                </div>
-            </div>
-            <div class="line">
-                <div class="drop dp2">
-                </div>
-            </div>
-            <div class="line">
-                <div class="drop dp3">
-                </div>
-            </div>
-            <div class="line">
-                <div class="drop dp4">
-                </div>
-            </div>
-            <div class="line">
-                <div class="drop dp5">
-                </div>
-            </div>
+      <div class="lines">
+        <div class="line">
+          <div class="drop"></div>
         </div>
-        <div class="footer_inner">
-            <div class="newes_button">
-                <div class="container">
-                    <div class="row xs g-0">
-                        <div class="maindiv">
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="neweslatter">
-                                    <h3>subscribe neweslatter</h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="buttonDiv">
-                                    <form action="">
-                                        <div class="input">
-                                            <input type="email" placeholder="Email Address...">
-                                        </div>
-                                        <div class="sendto">
-                                            <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="middle_footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="footer_logo">
-                                <a href="javascript:void(0)">
-                                    <img src="images/logors.png" alt="">
-                                </a>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-8">
-                            <div class="contact_info">
-                                <ul>
-                                    <h4>contact info</h4>
-                                    <div class="lineB"></div>
-                                    <div class="lineB linEx"></div>
-                                    <li>
-                                        <i class="fa-solid fa-location-dot"></i>
-                                        Address: 44 New Design Street,
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-envelope"></i>
-                                        info@themevessel.com
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-phone"></i>
-                                        +01643-492-556
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-fax"></i>
-                                        +0477 85X6 552
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="useful_link">
-                                <ul>
-                                    <h4>Useful Links</h4>
-                                    <div class="lineB"></div>
-                                    <div class="lineB linEx"></div>
-                                    <li>
-                                        <a href="index.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Home
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="about_us.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            About Us
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="services.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Services
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="blog.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Blog
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="dashboard.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Dashboard
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="contactUs.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Contact Us
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="Elements.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Elements
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="our_gallery">
-                                <ul>
-                                    <h4>our gallery</h4>
-                                    <div class="lineB"></div>
-                                    <div class="lineB linEx"></div>
-                                    <li>
-                                        <img src="images/decoration(11).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(12).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(13).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(14).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(15).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(16).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(17).jpg" >
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(18).jpg" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="images/decoration(19).jpg" alt="">
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="line">
+          <div class="drop dp2"></div>
         </div>
-        <div class="footer_copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <p class="copy">© 2022
-                            <a href="javascript:void(0)">Theme Vessel.</a>
-                            All Rights Reserved.
-                        </p>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="social_icon">
-                            <a class="square" href="javascript:void(0)" data-toggle="tooltip" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a class="square" href="javascript:void(0)" data-toggle="tooltip" title="Tweeter"><i class="fa-brands fa-twitter"></i></a>
-                            <a class="square" href="javascript:void(0)" data-toggle="tooltip" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                            <a class="square" href="javascript:void(0)" data-toggle="tooltip" title="Github"><i class="fa-brands fa-github"></i></a>
-                            <a class="square" href="javascript:void(0)" data-toggle="tooltip" title="You-tube"><i class="fa-brands fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="line">
+          <div class="drop dp3"></div>
         </div>
+        <div class="line">
+          <div class="drop dp4"></div>
+        </div>
+        <div class="line">
+          <div class="drop dp5"></div>
+        </div>
+      </div>
+      <div class="footer_inner">
+        <div class="newes_button">
+          <div class="container">
+            <div class="row xs g-0">
+              <div class="maindiv">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="neweslatter">
+                    <h3>subscribe neweslatter</h3>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="buttonDiv">
+                    <form action="">
+                      <div class="input">
+                        <input type="email" placeholder="Email Address..." />
+                      </div>
+                      <div class="sendto">
+                        <button type="submit">
+                          <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="middle_footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="footer_logo">
+                  <a href="javascript:void(0)">
+                    <img src="images/logors.png" alt="" />
+                  </a>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.
+                    Donec a consectetur nulla. Nulla posuere sapien vitae lectus
+                    suscipit, et pulvinar nisi tincidunt. Aliquam erat.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-8">
+                <div class="contact_info">
+                  <ul>
+                    <h4>contact info</h4>
+                    <div class="lineB"></div>
+                    <div class="lineB linEx"></div>
+                    <li>
+                      <i class="fa-solid fa-location-dot"></i>
+                      Address: 44 New Design Street,
+                    </li>
+                    <li>
+                      <i class="fa-regular fa-envelope"></i>
+                      info@themevessel.com
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-phone"></i>
+                      +01643-492-556
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-fax"></i>
+                      +0477 85X6 552
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="useful_link">
+                  <ul>
+                    <h4>Useful Links</h4>
+                    <div class="lineB"></div>
+                    <div class="lineB linEx"></div>
+                    <li>
+                      <a href="index.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Home
+                      </a>
+                    </li>
+                    <li>
+                      <a href="about_us.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        About Us
+                      </a>
+                    </li>
+                    <li>
+                      <a href="services.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Services
+                      </a>
+                    </li>
+                    <li>
+                      <a href="blog.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Blog
+                      </a>
+                    </li>
+                    <li>
+                      <a href="dashboard.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Dashboard
+                      </a>
+                    </li>
+                    <li>
+                      <a href="contactUs.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Contact Us
+                      </a>
+                    </li>
+                    <li>
+                      <a href="Elements.html">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Elements
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="our_gallery">
+                  <ul>
+                    <h4>our gallery</h4>
+                    <div class="lineB"></div>
+                    <div class="lineB linEx"></div>
+                    <li>
+                      <img src="images/decoration(11).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(12).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(13).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(14).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(15).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(16).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(17).jpg" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(18).jpg" alt="" />
+                    </li>
+                    <li>
+                      <img src="images/decoration(19).jpg" alt="" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <p class="copy">
+                © 2022
+                <a href="javascript:void(0)">Theme Vessel.</a>
+                All Rights Reserved.
+              </p>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="social_icon">
+                <a
+                  class="square"
+                  href="javascript:void(0)"
+                  data-toggle="tooltip"
+                  title="Facebook"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a
+                  class="square"
+                  href="javascript:void(0)"
+                  data-toggle="tooltip"
+                  title="Tweeter"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a
+                  class="square"
+                  href="javascript:void(0)"
+                  data-toggle="tooltip"
+                  title="Instagram"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a
+                  class="square"
+                  href="javascript:void(0)"
+                  data-toggle="tooltip"
+                  title="Github"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  class="square"
+                  href="javascript:void(0)"
+                  data-toggle="tooltip"
+                  title="You-tube"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-1.12.4.min.js"></script>
@@ -955,5 +1329,5 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
